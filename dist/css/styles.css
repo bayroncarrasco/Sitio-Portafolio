@@ -10232,6 +10232,33 @@ header.masthead h1 {
   background: black;
 }
 
-div.container div.row.justify-content-center div.col-lg-6.col-sm-6 img.img-tecnologias {
-  width: 100%;
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  footer#tecnologias.bg-c-verde-claro.py-5 div.row div.col-lg-12.col-sm-12 .col-lg-6.col-sm-6 {
+    display: block;
+    margin: auto;
+  }
+  footer#tecnologias.bg-c-verde-claro.py-5 div.row div.col-lg-12.col-sm-12 .col-lg-6.col-sm-6 img.img-tecnologias1 {
+    width: 40%;
+    float: left;
+  }
+  footer#tecnologias.bg-c-verde-claro.py-5 div.row div.col-lg-12.col-sm-12 .col-lg-6.col-sm-6 img.img-tecnologias2 {
+    width: 40%;
+    float: right;
+  }
+}
+@media (max-width: 767px) {
+  footer#tecnologias.bg-c-verde-claro.py-5 div.row div.col-lg-12.col-sm-12 .col-lg-6.col-sm-6 img.img-tecnologias1 {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  footer#tecnologias.bg-c-verde-claro.py-5 div.row div.col-lg-12.col-sm-12 .col-lg-6.col-sm-6 img.img-tecnologias2 {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
 }
