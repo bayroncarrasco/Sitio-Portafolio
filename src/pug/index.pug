@@ -56,7 +56,7 @@ html(lang='en')
                         a.btn.btn-secondary.btn-xl.js-scroll-trigger(href='#about') Saber más
 
         // About
-        section#about.page-section.bg-primary
+        section#about.page-section.bg-secondary
             .container
                 .row.justify-content-center
                     .col-lg-8.text-center
@@ -67,8 +67,11 @@ html(lang='en')
                         a.btn.btn-light.btn-xl.js-scroll-trigger(href='#portfolio') Ír a mi Portafolio
 
         // Portfolio
-        div#portfolio
+        div#portfolio.bg-secondary
             .container-fluid.p-0
+                div.text-center
+                    h3.bg-c-blanco.pt-30 Portafolio
+                    hr.divider-blanco.my-4
                 .row.no-gutters
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg')
@@ -119,35 +122,12 @@ html(lang='en')
                                 .project-name
                                     | Project Name
 
-        // Call to action
-        section.page-section.bg-dark.text-white
-            .container.text-center
-                h2.mb-4 Free Download at Start Bootstrap!
-                a.btn.btn-light.btn-xl(href='https://startbootstrap.com/themes/creative/') Download Now!
-
-        // Contact
-        section#contact.page-section
-            .container
-                .row.justify-content-center
-                    .col-lg-8.text-center
-                        h2.mt-0 Let's Get In Touch!
-                        hr.divider.my-4
-                        p.text-muted.mb-5
-                            | Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!
-                .row
-                    .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
-                        i.fas.fa-phone.fa-3x.mb-3.text-muted
-                        div +1 (555) 123-4567
-                    .col-lg-4.mr-auto.text-center
-                        i.fas.fa-envelope.fa-3x.mb-3.text-muted
-
-                        // Make sure to change the email address in BOTH the anchor text and the link target below!
-                        a.d-block(href='mailto:contact@yourwebsite.com') contact@yourwebsite.com
-
         // Footer
-        footer.bg-light.py-5
+        footer.bg-c-verde-claro.py-5
             .container
-                .small.text-center.text-muted Copyright © 2020 - Start Bootstrap
+                .row
+                 .col-sm-12
+                    p.text-white.font-weight-bold-my-5.mx-5.text-center Ir arriba
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
