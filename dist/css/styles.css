@@ -12,6 +12,10 @@
   color: white;
 }
 
+.bg-c-negro {
+  color: black;
+}
+
 .bg-c-verde-claro {
   background-color: #3A9583;
 }
@@ -10039,7 +10043,13 @@ hr.divider-blanco {
 hr.divider-negro {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: white;
+  border-color: black;
+}
+
+hr.divider-verde-claro {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #3A9583;
 }
 
 hr.light {
