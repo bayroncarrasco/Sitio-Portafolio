@@ -7,10 +7,10 @@ header.masthead {
     // if the image name change, make sure to update the url path below!
     background: linear-gradient(
             to bottom,
-            #{fade-out($brown, 0.2)} 0%,
-            #{fade-out($brown, 0.2)} 100%
+            #{fade-out($grey, 0.5)} 0%,
+            #{fade-out($grey, 0.5)} 100%
         ),
-        url("../assets/img/bg-masthead.jpg");
+        url("../assets/img/informatico.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -32,7 +32,7 @@ header.masthead {
     }
     @include media-breakpoint-up(xl) {
         h1 {
-            font-size: 3.5rem;
+            font-size: 3.0rem;
         }
     }
 }

@@ -6,22 +6,22 @@
     .navbar-brand {
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
-        color: $gray-900;
+        color: $black;
     }
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: $gray-600;
+                color: $black;
                 font-family: $font-family-sans-serif;
                 font-weight: $font-weight-bold;
                 font-size: 0.9rem;
                 padding: 0.75rem 0;
                 &:hover,
                 &:active {
-                    color: $primary;
+                    color: $gray-900;
                 }
                 &.active {
-                    color: $primary !important;
+                    color: $gray-900 !important;
                 }
             }
         }
@@ -33,7 +33,7 @@
         .navbar-brand {
             color: fade-out($white, 0.3);
             &:hover {
-                color: $white;
+                color: $secondary;
             }
         }
         .navbar-nav {
@@ -42,7 +42,7 @@
                     color: fade-out($white, 0.3);
                     padding: 0 1rem;
                     &:hover {
-                        color: $white;
+                        color: $secondary;
                     }
                 }
                 &:last-child {
@@ -57,17 +57,17 @@
             box-shadow: $box-shadow;
             background-color: $white;
             .navbar-brand {
-                color: $gray-900;
+                color: $black;
                 &:hover {
-                    color: $primary;
+                    color: $secondary;
                 }
             }
             .navbar-nav {
                 .nav-item {
                     .nav-link {
-                        color: $gray-900;
+                        color: $black;
                         &:hover {
-                            color: $primary;
+                            color: $secondary;
                         }
                     }
                 }
