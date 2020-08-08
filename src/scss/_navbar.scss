@@ -8,6 +8,9 @@
         font-weight: $font-weight-bold;
         color: $black;
     }
+    button.navbar-toggler.navbar-toggler-right{
+        border: 2px solid black;
+    }
     .navbar-nav {
         .nav-item {
             .nav-link {
