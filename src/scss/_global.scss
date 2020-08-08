@@ -20,6 +20,18 @@ hr.divider-blanco {
     border-color: $bg-c-blanco;
 }
 
+hr.divider-negro {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: $bg-c-negro;
+}
+
+hr.divider-verde-claro {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: $verde-claro;
+}
+
 hr.light {
     border-color: $white;
 }

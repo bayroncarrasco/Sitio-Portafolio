@@ -10036,6 +10036,12 @@ hr.divider-blanco {
   border-color: white;
 }
 
+hr.divider-negro {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+
 hr.light {
   border-color: #fff;
 }
