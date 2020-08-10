@@ -10290,7 +10290,7 @@ div.loading {
   opacity: 0;
 }
 div.loading .spin {
-  border: 8px #3A9583;
+  border: 8px solid #3A9583;
   border-top-color: white;
   border-radius: 50%;
   width: 6em;
