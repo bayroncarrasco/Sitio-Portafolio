@@ -1,3 +1,16 @@
-// Loading
-var Loading=(loadingDelayHidden=0)=>{let loading=null;const myLoadingDelayHidden=loadingDelayHidden;let imgs=[];let lenImgs=0;let counterImgsLoading=0;function incrementCounterImgs(){counterImgsLoading+=1;if(counterImgsLoading===lenImgs){hideLoading()}}function hideLoading(){if(loading!==null){loading.classList.remove('show');setTimeout(function(){loading.remove()},myLoadingDelayHidden)}}function init(){document.addEventListener('DOMContentLoaded',function(){loading=document.querySelector('.loading');imgs=Array.from(document.images);lenImgs=imgs.length;if(imgs.length===0){hideLoading()}else{imgs.forEach(function(img){img.addEventListener('load',incrementCounterImgs,false)})}})}return{'init':init}}
-
+$(document).ready(function() {    
+    $('.button').on('click', function(){
+        //Añadimos la imagen de carga en el contenedor
+        $('#content').html('<div class="loading"><img src="images/loader.gif" alt="loading" /><br/>Un momento, por favor...</div>');
+ 
+        $.ajax({
+            type: "POST",
+            url: "ajax.php",
+            success: function(data) {
+                //Cargamos finalmente el contenido deseado
+                $('#content').fadeIn(1000).html(data);
+            }
+        });
+        return false;
+    });              
+});    
