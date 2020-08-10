@@ -1,17 +1,19 @@
 @media (min-width: 768px) {
     .bg-c-blanco.py-5{
-        div.row{
-            div.col-lg-12.col-sm-12{
-                .col-lg-6.col-sm-6{
-                    display: block;
-                    margin: auto;
-                    img.img-tecnologias1{
-                        width: 40%;
-                        float: left;
-                    }
-                    img.img-tecnologias2{
-                        width: 40%;
-                        float: right;
+        .container{
+            div.row{
+                div.col-lg-12.col-sm-12{
+                    .col-lg-6.col-sm-6{
+                        display: block;
+                        margin: auto;
+                        img.img-tecnologias1{
+                            width: 40%;
+                            float: left;
+                        }
+                        img.img-tecnologias2{
+                            width: 40%;
+                            float: right;
+                        }
                     }
                 }
             }
@@ -21,18 +23,20 @@
 
 @media (max-width: 767px) {
     .bg-c-blanco.py-5{
-        div.row{
-            div.col-lg-12.col-sm-12{
-                .col-lg-6.col-sm-6{
-                    img.img-tecnologias1{
-                        width: 60%;
-                        display: block;
-                        margin: auto;
-                    }
-                    img.img-tecnologias2{
-                        width: 60%;
-                        display: block;
-                        margin: auto;
+        .container{
+            div.row{
+                div.col-lg-12.col-sm-12{
+                    .col-lg-6.col-sm-6{
+                        img.img-tecnologias1{
+                            width: 60%;
+                            display: block;
+                            margin: auto;
+                        }
+                        img.img-tecnologias2{
+                            width: 60%;
+                            display: block;
+                            margin: auto;
+                        }
                     }
                 }
             }
