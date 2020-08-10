@@ -12,7 +12,7 @@ div.loading {
     transition: 2s all;
     opacity: 0;
 
-    .loading .spin {
+    .spin {
         border: 8px $verde-claro;
         border-top-color: $bg-c-blanco;
         border-radius: 50%;
@@ -29,6 +29,6 @@ div.loading {
     }
 }
 
-.loading.show {
+div.loading.show {
     opacity: 1;
 }

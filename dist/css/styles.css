@@ -10289,7 +10289,7 @@ div.loading {
   transition: 2s all;
   opacity: 0;
 }
-div.loading .loading .spin {
+div.loading .spin {
   border: 8px #3A9583;
   border-top-color: white;
   border-radius: 50%;
@@ -10309,6 +10309,6 @@ div.loading .loading .spin {
   }
 }
 
-.loading.show {
+div.loading.show {
   opacity: 1;
 }
