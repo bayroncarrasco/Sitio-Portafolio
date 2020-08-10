@@ -13,10 +13,11 @@ div.loading {
     opacity: 0;
 
     .loading .spin {
+        border: 8px $verde-claro;
         border-top-color: $bg-c-blanco;
         border-radius: 50%;
-        width: 5em;
-        height: 5em;
+        width: 6em;
+        height: 6em;
         animation: spin 1.2s linear infinite;
 
         @keyframes spin {

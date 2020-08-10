@@ -10290,10 +10290,11 @@ div.loading {
   opacity: 0;
 }
 div.loading .loading .spin {
+  border: 8px #3A9583;
   border-top-color: white;
   border-radius: 50%;
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
   -webkit-animation: spin 1.2s linear infinite;
           animation: spin 1.2s linear infinite;
 }
