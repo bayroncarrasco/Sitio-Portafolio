@@ -17,6 +17,26 @@
             position: absolute;
         }
     }
+    @media (max-width: 767px){
+        #mainNav {
+            padding-bottom: 20px;
+            .navbar-brand {
+                font-family: $font-family-sans-serif;
+                font-weight: $font-weight-bold;
+                color: $black;
+                div.logo{
+                    background: url("../assets/img/logo/logo.png");
+                    background-size: 160px;
+                    width: 160px;
+                    height: 90px;
+                    background-repeat: no-repeat;
+                    display: block;
+                    box-sizing: border-box;
+                    position: absolute;
+                }
+            }
+        }
+    }
     button.navbar-toggler.navbar-toggler-right{
         border: 2px solid black;
     }
@@ -38,6 +58,7 @@
             }
         }
     }
+
     @include media-breakpoint-up(lg) {
         // Base styling for the navbar - screen sizes greater than the large breakpoint
         box-shadow: none;
@@ -64,6 +85,7 @@
                 }
             }
         }
+
         // Navbar styling applied when the page is scrolled
         &.navbar-scrolled {
             box-shadow: $box-shadow;
