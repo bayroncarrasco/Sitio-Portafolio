@@ -10170,13 +10170,14 @@ hr.light {
   font-weight: 700;
   color: black;
 }
-#mainNav .navbar-brand img.logo {
+#mainNav .navbar-brand div.logo {
   background: url("../assets/img/logo/logo-blanco.png");
   width: 230px;
   height: 90px;
   background-repeat: no-repeat;
   display: block;
   box-sizing: border-box;
+  position: absolute;
 }
 #mainNav button.navbar-toggler.navbar-toggler-right {
   border: 2px solid black;
@@ -10219,13 +10220,14 @@ hr.light {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
-  #mainNav.navbar-scrolled img.logo {
-    background: url("../assets/img/logo/logo.jpg");
+  #mainNav.navbar-scrolled div.logo {
+    background: url("../assets/img/logo/logo.png");
     width: 230px;
     height: 90px;
     background-repeat: no-repeat;
     display: block;
     box-sizing: border-box;
+    position: relative;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: black;
