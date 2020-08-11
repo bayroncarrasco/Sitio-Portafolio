@@ -1,8 +1,10 @@
 @media (min-width: 768px) {
-    .bg-c-blanco.py-5{
+    .bg-c-blanco{
         .container{
             div.row{
                 div.col-lg-12.col-sm-12{
+                    padding-top: 20px;
+                    padding-bottom: 20px;
                     .col-lg-6.col-sm-6{
                         display: block;
                         margin: auto;
@@ -22,10 +24,12 @@
 }
 
 @media (max-width: 767px) {
-    .bg-c-blanco.py-5{
+    .bg-c-blanco{
         .container{
             div.row{
                 div.col-lg-12.col-sm-12{
+                    padding-top: 20px;
+                    padding-bottom: 20px;
                     .col-lg-6.col-sm-6{
                         img.img-tecnologias1{
                             width: 60%;

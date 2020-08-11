@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0 " />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="author" content="Bayron Carrasco" />
         <title>Portafolio - Bayron Carrasco</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -18,6 +18,10 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Jquery-->
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <!-- Loading-->
+        <script src="js/loading.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -44,30 +48,30 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <h3 class="text-uppercase text-white font-weight-bold">Ingeniero en Informática</h3>
-                        <p class="text-white-75 font-weight-light mb-5">Desarrollador Front-end, Back-end y administrador de contenidos en la plataforma de Liferay 6.2, 7.0, 7.1. Administrador y desarrollador en la plataforma de Modyo</p>
+                        <p class="bg-c-blanco font-weight-light mb-5">Desarrollador Front-end, Back-end y administrador de contenidos en la plataforma de Liferay 6.2, 7.0, 7.1. Administrador y desarrollador en la plataforma de Modyo</p>
                         <a class="btn btn-secondary btn-xl js-scroll-trigger" href="#about">Saber más</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- About-->
-        <section class="page-section bg-secondary" id="about">
+        <section class="bg-secondary pt-80 pb-80" id="about">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">Presentación</h2>
                         <hr class="divider light my-4" />
-                        <p class="mb-4 bg-c-blanco">En la siguiente sección encontrarás los distintos proyectos en los que he participado, estos proyectos son: Movistar Chile, Claro Chile, Banco Central, Banco Central SIID, Correos Chile, todos estos proyectos administrados en la plataforma de Liferay desde su versión 6.2 a la 7.1. También he participado en proyectos de la plataforma modyo, ya sean: Parque Araúco Chile, Parque Arauco Perú.</p>
+                        <p class="mb-4 bg-c-blanco text-justify">En la siguiente sección encontrarás los distintos proyectos en los que he participado, estos proyectos son: Movistar Chile, Claro Chile, Banco Central, Banco Central SIID, Correos Chile, todos estos proyectos administrados en la plataforma de Liferay desde su versión 6.2 a la 7.1. También he participado en proyectos de la plataforma modyo, ya sean: Parque Araúco Chile, Parque Arauco Perú.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Ír a mi Portafolio</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Portfolio-->
-        <section class="bg-c-blanco" id="portfolio">
+        <section class="bg-c-blanco pt-80 pb-80" id="portfolio">
             <div class="container-fluid p-0">
                 <div class="text-center">
-                    <h2 class="bg-c-negro pt-30">Portafolio</h2>
+                    <h2 class="bg-c-negro">Portafolio</h2>
                     <hr class="divider-verde-claro my-4" />
                     <div class="col-lg-12 col-sm-12 col-xs-12 text-center pt-3 pb-5"><a class="btn btn-secondary btn-xl-2 js-scroll-trigger" href="#tecnologias">Ír a mis Tecnologías</a></div>
                 </div>
@@ -76,53 +80,71 @@
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Movistar Chile</div>
-                                <div class="project-name">Administración de contenidos sitios de: Personas, Empresas y Corporaciones.</div>
+                                <div class="project-category bg-c-blanco">Movistar Chile</div>
+                                <div class="project-name text-justify">Desarrollo Front End de Sitio Movistar Empresas y Coporaciones, creación de nuevas landings page y modificación de menú del sitio. Implementación de menu y footer transversal.</div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category bg-c-blanco">Movistar Chile</div>
+                                <div class="project-name text-justify">Administración de Sitio Movistar Personas, creación de contenidos administrables con plantillas y estructuras en Liferay 6.2</div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category bg-c-blanco">Intranet Claro chile</div>
+                                <div class="project-name text-justify">Administración de Sitio Intranet Claro Chile, creación de contenidos administrables mediante plantillas y estructuras en Liferay 7.1. Además de la creación de nuevas landings page.</div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category bg-c-blanco">Sitio Público Banco Central</div>
+                                <div class="project-name text-justify">Administración de Sitio público Banco Central, creación de contenidos administrables mediante plantillas y estructuras en en Liferay 7.1. Además de la modificación de desarrollos back-end (Portlets).</div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category bg-c-blanco">Sitio Público Banco Central</div>
+                                <div class="project-name text-justify">Migración de contenidos del sitio antiguo al nuevo sitio público en Liferay 7.1.</div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
                             <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category bg-c-blanco">Sitio Banco Central SIID</div>
+                                <div class="project-name text-justify">Modificación de desarrollos back-end (Portlets) en Liferay 7.1.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.pngg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category bg-c-blanco">Sitio Correos chile</div>
+                                <div class="project-name text-justify">Administración de Sitio Correos chile, creación de contenidos administrables mediante plantillas y estructuras en en Liferay 7.1.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/movistar.png">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/movistar.png" alt="" />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category bg-c-blanco">Sitios Parque Arauco Chile/Perú</div>
+                                <div class="project-name text-justify">Administración de Sitio Parque Arauco Chile/Perú, creación de snippets con seo base para el sitio, configuración de robots y sitemap en Modyo 8.</div>
                             </div>
                         </a>
                     </div>
@@ -130,26 +152,38 @@
             </div>
         </section>
         <!-- Tecnologías-->
-        <section class="container-fluid p-0" id="tecnologias">
+        <section class="container-fluid pb-50" id="tecnologias">
             <div class="text-center">
-                <h2 class="bg-c-negro pt-30">Tecnologías</h2>
+                <h2 class="bg-c-negro">Tecnologías</h2>
                 <hr class="divider-verde-claro my-4" />
             </div>
         </section>
-        <div class="bg-c-blanco py-5">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">
-                    <div class="col-lg-6 col-sm-6"><img class="img-tecnologias1" src="assets/img/liferay.png" alt="" /></div>
-                    <div class="col-lg-6 col-sm-6"><img class="img-tecnologias2" src="assets/img/modyo.png" alt="" /></div>
+        <div class="bg-c-blanco pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="col-lg-6 col-sm-6"><img class="img-tecnologias1" src="assets/img/liferay.png" alt="" /></div>
+                        <div class="col-lg-6 col-sm-6"><img class="img-tecnologias2" src="assets/img/modyo.png" alt="" /></div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Copyright-->
-        <div class="bg-c-blanco py-3">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12"><p class="bg-c-negro font-weight-bold-my-5 mx-5 text-center">Sítio creado por: Bayron Carrasco</p></div>
+        <div class="bg-c-verde-claro pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 text-center">
+                        <a class="btn btn-light btn-xl-copyright js-scroll-trigger" href="#page-top">Ír a inicio</a>
+                        <p class="bg-c-blanco-copyright font-weight-bold-my-5 mx-5 text-center pt-3">Sítio creado por: Bayron Carrasco</p>
+                        <div id="reloj"></div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Loading-->
+        <div class="loading show"><div class="spin"></div></div>
+        <!-- Fecha y hora-->
+        <script src="js/fechayhora.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

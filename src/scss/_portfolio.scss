@@ -21,7 +21,7 @@ section#portfolio {
                 opacity: 0;
 
                 color: $white;
-                background: fade-out($grey, 0.5);
+                background: fade-out($grey, 0.4);
                 transition: opacity 0.25s ease;
                 text-align: center;
                 .project-category {
@@ -31,12 +31,14 @@ section#portfolio {
                     text-transform: uppercase;
                 }
                 .project-name {
-                    font-size: 1.2rem;
+                    font-size: 1rem;
+                    padding: 20px;
                 }
             }
             &:hover {
                 .portfolio-box-caption {
                     opacity: 1;
+                    border-radius: 10px;
                 }
             }
         }

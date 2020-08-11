@@ -69,9 +69,12 @@ hr.light {
     border-bottom-right-radius: 3rem;
 }
 
-//- Page section styling
-
-.page-section {
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+.btn-xl-copyright {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
 }

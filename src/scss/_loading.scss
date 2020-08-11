@@ -16,8 +16,8 @@ div.loading {
         border: 8px solid $verde-claro;
         border-top-color: $bg-c-blanco;
         border-radius: 50%;
-        width: 6em;
-        height: 6em;
+        width: 4em;
+        height: 4em;
         animation: spin 1.2s linear infinite;
 
         @keyframes spin {
