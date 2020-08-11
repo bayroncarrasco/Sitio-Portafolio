@@ -7,6 +7,14 @@
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
         color: $black;
+        img.logo{
+            background: url("../assets/img/logo/logo-blanco.png");
+            width: 230px;
+            height: 90px;
+            background-repeat: no-repeat;
+            display: block;
+            box-sizing: border-box;
+        }
     }
     button.navbar-toggler.navbar-toggler-right{
         border: 2px solid black;
@@ -59,6 +67,14 @@
         &.navbar-scrolled {
             box-shadow: $box-shadow;
             background-color: $white;
+            img.logo{
+            background: url("../assets/img/logo/logo.jpg");
+            width: 230px;
+            height: 90px;
+            background-repeat: no-repeat;
+            display: block;
+            box-sizing: border-box;
+            }
             .navbar-brand {
                 color: $black;
                 &:hover {
