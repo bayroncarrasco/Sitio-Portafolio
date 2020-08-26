@@ -10296,11 +10296,14 @@ header.masthead h1 {
 section#portfolio .container-fluid, section#portfolio .container-sm, section#portfolio .container-md, section#portfolio .container-lg, section#portfolio .container-xl {
   max-width: 1920px;
 }
-section#portfolio .container-fluid .portfolio-box, section#portfolio .container-sm .portfolio-box, section#portfolio .container-md .portfolio-box, section#portfolio .container-lg .portfolio-box, section#portfolio .container-xl .portfolio-box {
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 {
+  padding: 1rem;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box {
   position: relative;
   display: block;
 }
-section#portfolio .container-fluid .portfolio-box .portfolio-box-caption, section#portfolio .container-sm .portfolio-box .portfolio-box-caption, section#portfolio .container-md .portfolio-box .portfolio-box-caption, section#portfolio .container-lg .portfolio-box .portfolio-box-caption, section#portfolio .container-xl .portfolio-box .portfolio-box-caption {
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10316,17 +10319,54 @@ section#portfolio .container-fluid .portfolio-box .portfolio-box-caption, sectio
   transition: opacity 0.25s ease;
   text-align: center;
 }
-section#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-section#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1rem;
   padding: 20px;
 }
-section#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-md .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
+section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+  border-radius: 10px;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 {
+  padding: 1rem;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box {
+  position: relative;
+  display: block;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(128, 128, 128, 0.6);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1rem;
+  padding: 20px;
+}
+section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
   border-radius: 10px;
 }
