@@ -10130,6 +10130,10 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+p {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -10293,82 +10297,91 @@ header.masthead h1 {
   }
 }
 
-section#portfolio .container-fluid, section#portfolio .container-sm, section#portfolio .container-md, section#portfolio .container-lg, section#portfolio .container-xl {
-  max-width: 1920px;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 {
-  padding: 1rem;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box {
-  position: relative;
-  display: block;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.card-flip > div {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(128, 128, 128, 0.6);
-  transition: opacity 0.25s ease;
-  text-align: center;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1rem;
-  padding: 20px;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-4.col-sm-6 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-  border-radius: 10px;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 {
-  padding: 1rem;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box {
-  position: relative;
-  display: block;
-}
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption {
+  height: 210px;
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+}
+
+.col-lg-4.col-sm-6 .card.card-flip {
+  border: 1px transparent !important;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+.col-lg-4.col-sm-6 .card.card-flip .card-front {
+  transform: rotateY(0deg);
+  border-radius: 20px;
+}
+.col-lg-4.col-sm-6 .card.card-flip .card-front .card-body h3.card-title {
+  margin-top: 3rem;
+}
+.col-lg-4.col-sm-6 .card.card-flip .card-front .card-body p.card-text {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.col-lg-4.col-sm-6 .card.card-flip .card-back {
+  transform: rotateY(180deg);
+  border-radius: 20px;
   position: absolute;
-  bottom: 0;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(128, 128, 128, 0.6);
-  transition: opacity 0.25s ease;
-  text-align: center;
+  top: 0;
 }
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
+.col-lg-4.col-sm-6 .card.card-flip .card-back .card-body p.card-text {
+  font-size: 0.8rem;
+  text-align: justify;
 }
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1rem;
-  padding: 20px;
+.col-lg-4.col-sm-6 .card-flip:hover .card-front {
+  transform: rotateY(-180deg);
 }
-section#portfolio .container-fluid .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-sm .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-md .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-lg .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption, section#portfolio .container-xl .row.no-gutters .col-lg-6.col-sm-6 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-  border-radius: 10px;
+.col-lg-4.col-sm-6 .card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.col-lg-8.col-sm-6 .card.card-flip {
+  border: 1px transparent !important;
+  padding-left: 3px;
+  padding-bottom: 3px;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-front {
+  transform: rotateY(0deg);
+  border-radius: 20px;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-front .card-body h3.card-title {
+  margin-top: 3rem;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-front .card-body p.card-text {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-back {
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-back .card-body p.card-text {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a.btn {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+.col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a.btn:hover {
+  color: #3A9583;
+  background-color: white;
+  border-color: white;
+}
+.col-lg-8.col-sm-6 .card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+.col-lg-8.col-sm-6 .card-flip:hover .card-back {
+  transform: rotateY(0deg);
 }
 
 .text-white-75 {

@@ -1,95 +1,109 @@
-// Styling for the portfolio section
-section#portfolio {
-    .container-fluid {
-        max-width: 1920px;
-        .row.no-gutters{
-            .col-lg-4.col-sm-6{
-                padding: 1rem;
-                .portfolio-box {
-                    position: relative;
-                    display: block;
-                    .portfolio-box-caption {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
+.card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 210px;
+    margin: 0;
+    display: flex;
+  }
+  
+  .col-lg-4.col-sm-6{
+    .card.card-flip{
+        border: 1px transparent !important;
+        padding-left: 3px;
+        padding-bottom: 3px;
 
-                        width: 100%;
-                        height: 100%;
+        .card-front {
+            transform: rotateY(0deg);
+            border-radius: 20px;
 
-                        position: absolute;
-                        bottom: 0;
-
-                        text-align: center;
-                        opacity: 0;
-
-                        color: $white;
-                        background: fade-out($grey, 0.4);
-                        transition: opacity 0.25s ease;
-                        text-align: center;
-                        .project-category {
-                            font-family: $font-family-sans-serif;
-                            font-size: 0.85rem;
-                            font-weight: 600;
-                            text-transform: uppercase;
-                        }
-                        .project-name {
-                            font-size: 1rem;
-                            padding: 20px;
-                        }
-                    }
-                    &:hover {
-                        .portfolio-box-caption {
-                            opacity: 1;
-                            border-radius: 10px;
-                        }
-                    }
+            .card-body{
+                h3.card-title{
+                    margin-top: 3rem;
+                }
+                p.card-text {
+                    font-size: 0.8rem;
+                    text-align: justify;
                 }
             }
-            .col-lg-6.col-sm-6{
-                padding: 1rem;
-                .portfolio-box {
-                    position: relative;
-                    display: block;
-                    .portfolio-box-caption {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
+        }
+            
+        .card-back {
+            transform: rotateY(180deg);
+            border-radius: 20px;
+            position: absolute;
+            top: 0;
 
-                        width: 100%;
-                        height: 100%;
-
-                        position: absolute;
-                        bottom: 0;
-
-                        text-align: center;
-                        opacity: 0;
-
-                        color: $white;
-                        background: fade-out($grey, 0.4);
-                        transition: opacity 0.25s ease;
-                        text-align: center;
-                        .project-category {
-                            font-family: $font-family-sans-serif;
-                            font-size: 0.85rem;
-                            font-weight: 600;
-                            text-transform: uppercase;
-                        }
-                        .project-name {
-                            font-size: 1rem;
-                            padding: 20px;
-                        }
-                    }
-                    &:hover {
-                        .portfolio-box-caption {
-                            opacity: 1;
-                            border-radius: 10px;
-                        }
-                    }
+            .card-body{
+                p.card-text {
+                    font-size: 0.8rem;
+                    text-align: justify;
                 }
             }
         }
     }
+    
+    .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+    }
+    
+    .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+    }
 }
+  
+.col-lg-8.col-sm-6{
+    .card.card-flip{
+        border: 1px transparent !important;
+        padding-left: 3px;
+        padding-bottom: 3px;
 
+        .card-front {
+            transform: rotateY(0deg);
+            border-radius: 20px;
+
+            .card-body{
+                h3.card-title{
+                    margin-top: 3rem;
+                }
+                p.card-text {
+                    font-size: 0.8rem;
+                    text-align: justify;
+                }
+            }
+        }
+            
+        .card-back {
+            transform: rotateY(180deg);
+            border-radius: 20px;
+            position: absolute;
+            top: 0;
+
+            .card-body{
+                p.card-text {
+                    font-size: 0.8rem;
+                    text-align: justify;
+                }
+                a.btn{
+                    color: white;
+                    background-color: transparent;
+                    border-color: white;
+                }
+                a.btn:hover{
+                    color: #3A9583;
+                    background-color: white;
+                    border-color: white;
+                }
+            }
+        }
+    }
+    
+    .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+    }
+    
+    .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+    }
+}  
