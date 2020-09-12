@@ -107,3 +107,27 @@
     transform: rotateY(0deg);
     }
 }  
+
+
+@media (max-width: 425px) {
+    .card-front.text-white.bg-c-verde-claro:nth-child(1) {
+        background-color: #3A9583;
+    }
+    .card-back.bg-dark:nth-child(1){
+        background-color: #343a40;
+    }
+
+    .card-front.text-white.bg-dark:nth-child(2) {
+        background-color: #343a40 !important;
+    }
+    .card-back.bg-c-verde-claro:nth-child(2){
+        background-color: #3A9583 !important;
+    }
+
+    .card-front.text-white.bg-dark:nth-child(3) {
+        background-color: #3A9583 !important;
+    }
+    .card-back.bg-c-verde-claro:nth-child(3){
+        background-color: #343a40 !important;
+    }
+  }
