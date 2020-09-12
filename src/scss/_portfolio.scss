@@ -110,24 +110,19 @@
 
 
 @media (max-width: 425px) {
-    .card-front.text-white.bg-c-verde-claro:nth-child(1) {
-        background-color: #3A9583;
-    }
-    .card-back.bg-dark:nth-child(1){
-        background-color: #343a40;
-    }
+    div#contenedor1  {order: 1; padding-bottom:5px; padding-left:5px; padding-right:5px;}
+    div#contenedor2  {order: 2; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor3  {order: 4; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor4  {order: 5; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor5  {order: 3; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor6  {order: 6; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor7  {order: 8; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor8  {order: 7; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor9  {order: 9; padding-bottom:5px; padding-left:5px; padding-right:5px}
+    div#contenedor10 {order: 10; padding-bottom:5px; padding-left:5px; padding-right:5px}
 
-    .card-front.text-white.bg-dark:nth-child(2) {
-        background-color: #343a40 !important;
+    .card-flip > div {
+        width: 100%;
+        height: 220px;
     }
-    .card-back.bg-c-verde-claro:nth-child(2){
-        background-color: #3A9583 !important;
-    }
-
-    .card-front.text-white.bg-dark:nth-child(3) {
-        background-color: #3A9583 !important;
-    }
-    .card-back.bg-c-verde-claro:nth-child(3){
-        background-color: #343a40 !important;
-    }
-  }
+}
