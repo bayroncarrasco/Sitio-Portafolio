@@ -8,6 +8,10 @@
   background-color: black;
 }
 
+.bg-dark {
+  background-color: #343a40;
+}
+
 .bg-c-blanco {
   color: white;
 }
@@ -10389,70 +10393,70 @@ header.masthead h1 {
     order: 1;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor2 {
     order: 2;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor3 {
     order: 4;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor4 {
     order: 5;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor5 {
     order: 3;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor6 {
     order: 6;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor7 {
     order: 8;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor8 {
     order: 7;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor9 {
     order: 9;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   div#contenedor10 {
     order: 10;
     padding-bottom: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
   }
 
   .card-flip > div {
@@ -10460,6 +10464,277 @@ header.masthead h1 {
     height: 220px;
   }
 }
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(1) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #3A9583;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(1) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(1) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) div#contenedorExternoCss div.contenedorInterno p {
+  font-size: 2em;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(3) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #3A9583;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(3) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(3) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(4) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(4) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(4) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(5) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #3A9583;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(5) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(5) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(6) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(6) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(6) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(7) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #3A9583;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(7) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(7) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(8) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(8) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(8) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(9) div#contenedorExternoCss {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #3A9583;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5px;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(9) div#contenedorExternoCss div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid white;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(9) div#contenedorExternoCss div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 5px;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid #3A9583;
+  margin-left: 1rem;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: #343a40;
+  font-weight: 600;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp div.contenedorInterno p:nth-child(2) {
+  padding-left: 1rem;
+  color: #343a40;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp div.contenedorInterno p:nth-child(3) {
+  padding-left: 1rem;
+  color: #343a40;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp {
+  width: 98%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 5px;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp div.contenedorInterno {
+  width: 100%;
+  height: 70px;
+  border-left: 5px solid #3A9583;
+  margin-left: 1rem;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0rem;
+  color: #343a40;
+  font-weight: 600;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp div.contenedorInterno p:nth-child(2) {
+  padding-left: 1rem;
+  color: #343a40;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp div.contenedorInterno p:nth-child(3) {
+  padding-left: 1rem;
+  color: #343a40;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }

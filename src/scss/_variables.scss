@@ -10,6 +10,7 @@ $rojo: #C43029;
 $verde-claro: #3A9583;
 $bg-black: black;
 $bg-c-blanco: white;
+$bg-dark: #343a40;
 
 //- Override primary color
 $primary: $orange;
@@ -30,6 +31,7 @@ $navbar-height: 4.5rem;
 
 //- Variables de colores
 .bg-black{ background-color: $bg-black;}
+.bg-dark{ background-color: $bg-dark;}
 .bg-c-blanco{ color: $bg-c-blanco;}
 .bg-c-blanco-copyright{ color: $bg-c-blanco;}
 .bg-c-negro{ color: $bg-black;}
