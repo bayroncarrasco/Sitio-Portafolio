@@ -126,3 +126,33 @@
         height: 220px;
     }
 }
+
+
+@media (max-width: 767px){
+    .col-lg-4.col-sm-6{
+        .card.card-flip{                
+            .card-back {
+                .card-body{
+                    a#btn1{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+@media (min-width: 768px){
+    .col-lg-4.col-sm-6{
+        .card.card-flip{                
+            .card-back {
+                .card-body{
+                    a#btn2{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }    
+}
+
