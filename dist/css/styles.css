@@ -10773,7 +10773,7 @@ div.carousel.slide a.carousel-control-next:hover {
 @media (max-width: 767px) {
   div.carousel.slide div.carousel-inner .carousel-item img {
     width: 70%;
-    height: 100px;
+    height: 110px;
     padding-bottom: 20px;
   }
 }
