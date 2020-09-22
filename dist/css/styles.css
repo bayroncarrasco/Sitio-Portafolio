@@ -10735,6 +10735,48 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   font-size: 1em;
 }
 
+div.carousel.slide ul.carousel-indicators {
+  margin-top: 20px;
+}
+div.carousel.slide ul.carousel-indicators li {
+  background-color: #343a40;
+  height: 10px;
+  border-radius: 11px;
+}
+div.carousel.slide ul.carousel-indicators li.active {
+  background-color: #3A9583;
+  height: 10px;
+  border-radius: 11px;
+}
+div.carousel.slide div.carousel-inner .carousel-item img {
+  width: 30%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: block;
+}
+div.carousel.slide div.carousel-inner .carousel-item div.carousel-caption h3 {
+  color: #343a40;
+}
+div.carousel.slide a.carousel-control-prev:hover {
+  background-color: #3A9583;
+  opacity: 0.2;
+  border-top-right-radius: 10px;
+}
+div.carousel.slide a.carousel-control-next:hover {
+  background-color: #3A9583;
+  opacity: 0.2;
+  border-top-left-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  div.carousel.slide div.carousel-inner .carousel-item img {
+    width: 70%;
+    height: 100px;
+    padding-bottom: 20px;
+  }
+}
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
