@@ -10465,12 +10465,70 @@ header.masthead h1 {
   }
 }
 @media (max-width: 767px) {
-  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn1 {
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn0Escritorio {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn6Escritorio {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn8Escritorio {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn14Escritorio {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn16Escritorio {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn2 {
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn1Mobile {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn7Mobile {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn9Mobile {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn15Mobile {
+    display: none;
+  }
+  .col-lg-4.col-sm-6 .card.card-flip .card-back .card-body a#btn17Mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn2Escritorio {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn4Escritorio {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn10Escritorio {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn12Escritorio {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn18Escritorio {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn3Mobile {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn5Mobile {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn11Mobile {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn13Mobile {
+    display: none;
+  }
+  .col-lg-8.col-sm-6 .card.card-flip .card-back .card-body a#btn19Mobile {
     display: none;
   }
 }

@@ -127,13 +127,25 @@
     }
 }
 
-
+//Mobile
 @media (max-width: 767px){
     .col-lg-4.col-sm-6{
         .card.card-flip{                
             .card-back {
                 .card-body{
-                    a#btn1{
+                    a#btn0Escritorio{
+                        display: none;
+                    }
+                    a#btn6Escritorio{
+                        display: none;
+                    }
+                    a#btn8Escritorio{
+                        display: none;
+                    }
+                    a#btn14Escritorio{
+                        display: none;
+                    }
+                    a#btn16Escritorio{
                         display: none;
                     }
                 }
@@ -142,12 +154,25 @@
     }    
 }
 
+//Escritorio
 @media (min-width: 768px){
     .col-lg-4.col-sm-6{
         .card.card-flip{                
             .card-back {
                 .card-body{
-                    a#btn2{
+                    a#btn1Mobile{
+                        display: none;
+                    }
+                    a#btn7Mobile{
+                        display: none;
+                    }
+                    a#btn9Mobile{
+                        display: none;
+                    }
+                    a#btn15Mobile{
+                        display: none;
+                    }
+                    a#btn17Mobile{
                         display: none;
                     }
                 }
@@ -155,4 +180,58 @@
         }
     }    
 }
+
+//Mobile
+@media (max-width: 767px){
+    .col-lg-8.col-sm-6{
+        .card.card-flip{                
+            .card-back {
+                .card-body{
+                    a#btn2Escritorio{
+                        display: none;
+                    }
+                    a#btn4Escritorio{
+                        display: none;
+                    }
+                    a#btn10Escritorio{
+                        display: none;
+                    }
+                    a#btn12Escritorio{
+                        display: none;
+                    }
+                    a#btn18Escritorio{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+//Escritorio
+@media (min-width: 768px){
+    .col-lg-8.col-sm-6{
+        .card.card-flip{                
+            .card-back {
+                .card-body{
+                    a#btn3Mobile{
+                        display: none;
+                    }
+                    a#btn5Mobile{
+                        display: none;
+                    }
+                    a#btn11Mobile{
+                        display: none;
+                    }
+                    a#btn13Mobile{
+                        display: none;
+                    }
+                    a#btn19Mobile{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}    
 
