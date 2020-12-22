@@ -5,7 +5,11 @@ section#conocimientos{
         //}
     //}
     div.row.no-gutters{
-        div.col-lg-4.col-sm-4.col-xs-12:nth-child(1){   
+        div.col-lg-4.col-sm-4.col-xs-12:nth-child(1){
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out;   
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -33,8 +37,20 @@ section#conocimientos{
 
     }
 
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(1):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(2){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -63,8 +79,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(2):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(3){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -92,8 +120,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(3):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
-        div.col-lg-4.col-sm-4.col-xs-12:nth-child(4){  
+        div.col-lg-4.col-sm-4.col-xs-12:nth-child(4){ 
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out;  
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -121,8 +161,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(4):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(5){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -148,8 +200,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(5):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(6){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -177,8 +241,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(6):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(7){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -206,8 +282,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(7):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(8){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -233,8 +321,20 @@ section#conocimientos{
         }
 
     }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(8):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+    }
+
     div.row.no-gutters{
         div.col-lg-4.col-sm-4.col-xs-12:nth-child(9){  
+            -webkit-transition: all 0.6s ease-in-out;
+            -moz-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out; 
             div#contenedorExternoCss{
                 width: 98%;
                 height: 100px;
@@ -261,5 +361,12 @@ section#conocimientos{
             }
         }
 
+    }
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(9):hover{
+        -webkit-transform:scale(0.9);
+        -moz-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
     }
 }

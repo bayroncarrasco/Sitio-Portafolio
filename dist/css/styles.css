@@ -10532,6 +10532,12 @@ header.masthead h1 {
     display: none;
   }
 }
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(1) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+}
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(1) div#contenedorExternoCss {
   width: 98%;
   height: 100px;
@@ -10554,6 +10560,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   padding-left: 1rem;
   margin-bottom: 0rem;
   color: white;
+}
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(1):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(2) div#contenedorExternoCss {
   width: 98%;
@@ -10580,6 +10595,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   font-size: 2em;
   color: white;
 }
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(2):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(3) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+}
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(3) div#contenedorExternoCss {
   width: 98%;
   height: 100px;
@@ -10602,6 +10626,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   padding-left: 1rem;
   margin-bottom: 0rem;
   color: white;
+}
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(3):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(4) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(4) div#contenedorExternoCss {
   width: 98%;
@@ -10626,6 +10659,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   margin-bottom: 0rem;
   color: white;
 }
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(4):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(5) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+}
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(5) div#contenedorExternoCss {
   width: 98%;
   height: 100px;
@@ -10646,6 +10688,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   padding-left: 1rem;
   margin-bottom: 0rem;
   color: white;
+}
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(5):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(6) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(6) div#contenedorExternoCss {
   width: 98%;
@@ -10670,6 +10721,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   margin-bottom: 0rem;
   color: white;
 }
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(6):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(7) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+}
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(7) div#contenedorExternoCss {
   width: 98%;
   height: 100px;
@@ -10693,6 +10753,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   margin-bottom: 0rem;
   color: white;
 }
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(7):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(8) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+}
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(8) div#contenedorExternoCss {
   width: 98%;
   height: 100px;
@@ -10713,6 +10782,15 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   padding-left: 1rem;
   margin-bottom: 0rem;
   color: white;
+}
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(8):hover {
+  transform: scale(0.9);
+}
+section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(9) {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(9) div#contenedorExternoCss {
   width: 98%;
@@ -10737,7 +10815,16 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   margin-bottom: 0rem;
   color: white;
 }
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(9):hover {
+  transform: scale(0.9);
+}
 
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) {
+  -webkit-transition: all 1.2s ease-in-out;
+  -moz-transition: all 1.2s ease-in-out;
+  -o-transition: all 1.2s ease-in-out;
+  -ms-transition: all 1.2s ease-in-out;
+}
 section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1) div#contenedorExternoExp {
   width: 98%;
   height: 100px;
@@ -10770,6 +10857,15 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   margin-bottom: 0;
   font-size: 1em;
 }
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(1):hover {
+  transform: scale(1.1);
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) {
+  -webkit-transition: all 1.2s ease-in-out;
+  -moz-transition: all 1.2s ease-in-out;
+  -o-transition: all 1.2s ease-in-out;
+  -ms-transition: all 1.2s ease-in-out;
+}
 section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2) div#contenedorExternoExp {
   width: 98%;
   height: 100px;
@@ -10801,6 +10897,9 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   color: #343a40;
   margin-bottom: 0;
   font-size: 1em;
+}
+section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-child(2):hover {
+  transform: scale(1.1);
 }
 
 div.carousel.slide ul.carousel-indicators {
