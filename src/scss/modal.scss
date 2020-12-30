@@ -86,7 +86,7 @@ div.mfp-content{
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         margin-left: 0px;
-        top: 290px;
+        top: 50%;
 
         &.mfp-arrow-left:before{
             margin-left: 25px;
@@ -108,7 +108,7 @@ div.mfp-content{
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
         margin-right: 0px;
-        top: 280px;
+        top: 50%;
 
         &.mfp-arrow-right:before{
             border-left: 27px solid $bg-c-blanco;;
