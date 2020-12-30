@@ -344,8 +344,35 @@ html(lang='en')
                 .row
                     .col-lg-4.col-sm-4.text-center
                         p.bg-c-blanco-copyright.font-weight-bold-my-5.text-left.pt-3 ¿Como fue construido el sitio?  
-                        p.bg-c-blanco-copyright.font-weight-bold-my-5.text-left Con las tecnologías de:
-                        p.bg-c-blanco-copyright.font-weight-bold-my-5.text-left - Boostrap, css, js, npm y pug.  
+
+                        .mb-2
+                            span.barraProgreso
+                                span.item_progreso(itemprop='keywords' aria-label='SCSS 41.7')
+                                span.item_progreso(itemprop='keywords' aria-label='HTML 26.6')
+                                span.item_progreso(itemprop='keywords' aria-label='Pug 21.8')
+                                span.item_progreso(itemprop='keywords' aria-label='JavaScript 9.9')
+
+                        ul.list-style-none
+                            li.d-inline
+                                a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3
+                                    svg.octicon.octicon-dot-fill.mr-2(viewbox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true')
+                                        path(fill-rule='evenodd' d='M8 4a4 4 0 100 8 4 4 0 000-8z')
+                                    span.text-gray-dark.text-bold.mr-1 SCSS 41.7%
+                            li.d-inline
+                                a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3
+                                    svg.octicon.octicon-dot-fill.mr-2(viewbox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true')
+                                        path(fill-rule='evenodd' d='M8 4a4 4 0 100 8 4 4 0 000-8z')
+                                    span.text-gray-dark.text-bold.mr-1 HTML 26.6%
+                            li.d-inline
+                                a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3
+                                    svg.octicon.octicon-dot-fill.mr-2(viewbox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true')
+                                        path(fill-rule='evenodd' d='M8 4a4 4 0 100 8 4 4 0 000-8z')
+                                    span.text-gray-dark.text-bold.mr-1 Pug 21.8%
+                            li.d-inline
+                                a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3
+                                    svg.octicon.octicon-dot-fill.mr-2(viewbox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true')
+                                        path(fill-rule='evenodd' d='M8 4a4 4 0 100 8 4 4 0 000-8z')
+                                    span.text-gray-dark.text-bold.mr-1 JavaScript 9.9%
                     .col-lg-4.col-sm-4.text-center
                         div.logo
                     .col-lg-4.col-sm-4.text-center
