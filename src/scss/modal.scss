@@ -1,0 +1,127 @@
+div.mfp-content{
+    font-family: $font-family-sans-serif;
+    div.mfp-figure{
+        button.mfp-close{
+            right: 0px;
+            font-size: 40px;
+            color: $bg-c-blanco;
+            background-color: $verde-claro;
+            text-align: center;
+            padding-right: 0px;
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            opacity: 1;
+        }
+        figure{
+            img.mfp-img{
+                padding: 60px 0 50px;
+            }
+            figcaption{
+                div.mfp-bottom-bar{
+                    color: $bg-c-blanco;
+                    height: 30px;
+                    background-color: $verde-claro;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+
+                    div.mfp-counter{
+                        text-align: center;
+                        color: $bg-c-blanco;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Vista Escritorio
+@media (min-width:768px){
+    div.mfp-preloader{
+        color: $bg-c-blanco;
+    }
+    button.mfp-arrow.mfp-arrow-left.mfp-prevent-close{
+        background: $verde-claro;
+        color: $bg-c-blanco;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-left: 185px;
+
+        &.mfp-arrow-left:before{
+            margin-left: 25px;
+            border-right: 27px solid $bg-c-blanco;
+        }
+        &.mfp-arrow-left:after{
+            border-right: 17px solid $verde-claro;
+            margin-left: 31px;
+        }
+    }
+
+    button.mfp-arrow.mfp-arrow-right.mfp-prevent-close{
+        background: $verde-claro;
+        color: $bg-c-blanco;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-right: 185px;
+
+        &.mfp-arrow-right:before{
+            border-left: 27px solid $bg-c-blanco;;
+        }
+    
+        &.mfp-arrow-right:after{
+            border-left: 17px solid $verde-claro;
+            margin-left: 39px;
+        }
+    }
+}
+
+// Vista Mobile
+@media (max-width:767px){
+    div.mfp-preloader{
+        color: $bg-c-blanco;
+    }
+    button.mfp-arrow.mfp-arrow-left.mfp-prevent-close{
+        color: $bg-c-blanco;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-left: 0px;
+        top: 290px;
+
+        &.mfp-arrow-left:before{
+            margin-left: 25px;
+            border-right: 27px solid $bg-c-blanco;
+        }
+        &.mfp-arrow-left:after{
+            border-right: 17px solid $verde-claro;
+            margin-left: 31px;
+        }
+        &.mfp-arrow:before {
+            border-top-width: 21px;
+            border-bottom-width: 21px;
+            opacity: 1;
+        }
+    }
+
+    button.mfp-arrow.mfp-arrow-right.mfp-prevent-close{
+        color: $bg-c-blanco;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-right: 0px;
+        top: 280px;
+
+        &.mfp-arrow-right:before{
+            border-left: 27px solid $bg-c-blanco;;
+        }
+    
+        &.mfp-arrow-right:after{
+            border-left: 17px solid $verde-claro;
+            margin-left: 39px;
+        }
+        &.mfp-arrow:after {
+            border-top-width: 13px;
+            border-bottom-width: 13px;
+            top: 8px;
+        }
+    }
+}
