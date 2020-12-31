@@ -10920,7 +10920,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(1) div {
     background: url(../assets/img/liferay.png);
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25% 100%;
@@ -10933,7 +10933,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div {
     background: url(../assets/img/modyo.png);
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25% 100%;
@@ -10946,10 +10946,10 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div {
     background: url(../assets/img/bootstrap.png);
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 35% 150%;
+    background-size: 15% 160%;
     margin-bottom: 50px;
     display: block;
   }
@@ -10959,14 +10959,53 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div {
     background: url(../assets/img/html5.png);
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 10% 100%;
+    background-size: 9% 100%;
     margin-bottom: 50px;
     display: block;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div {
+    background: url(../assets/img/css.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div {
+    background: url(../assets/img/js.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div {
+    background: url(../assets/img/sass.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15% 150%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div.carousel-caption h3 {
     color: #343a40;
   }
   div.carousel.slide a.carousel-control-prev:hover {
@@ -11004,7 +11043,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 85% 100%;
     margin-bottom: 50px;
     display: block;
   }
@@ -11014,7 +11053,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 85% 100%;
     margin-bottom: 50px;
     display: block;
   }
@@ -11024,7 +11063,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 45% 160%;
     margin-bottom: 50px;
     display: block;
   }
@@ -11035,6 +11074,36 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div {
+    background: url(../assets/img/css.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div {
+    background: url(../assets/img/js.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div {
+    background: url(../assets/img/sass.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40% 130%;
     margin-bottom: 50px;
     display: block;
   }
