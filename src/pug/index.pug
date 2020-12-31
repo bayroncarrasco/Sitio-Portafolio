@@ -318,13 +318,23 @@ html(lang='en')
             ul.carousel-indicators
                 li.active(data-target='#demo', data-slide-to='0')
                 li(data-target='#demo', data-slide-to='1')
+                li(data-target='#demo', data-slide-to='2')
+                li(data-target='#demo', data-slide-to='3')
             .carousel-inner
                 .carousel-item.active
-                    img(src='assets/img/liferay.png', alt='Los Angeles')
+                    div
                     //-.carousel-caption
                         h3 Liferay
                 .carousel-item
-                    img(src='assets/img/modyo.png', alt='Chicago')
+                    div
+                    //-.carousel-caption
+                        h3 Modyo
+                .carousel-item
+                    div
+                    //-.carousel-caption
+                        h3 Liferay
+                .carousel-item
+                    div(alt='html5')
                     //-.carousel-caption
                         h3 Modyo
             a.carousel-control-prev(href='#demo', data-slide='prev')
