@@ -10903,49 +10903,140 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   transform: scale(1.1);
 }
 
-div.carousel.slide ul.carousel-indicators {
-  margin-top: 20px;
+@media (min-width: 768px) {
+  div.carousel.slide ul.carousel-indicators {
+    margin-top: 20px;
+  }
+  div.carousel.slide ul.carousel-indicators li {
+    background-color: #343a40;
+    height: 10px;
+    border-radius: 11px;
+  }
+  div.carousel.slide ul.carousel-indicators li.active {
+    background-color: #3A9583;
+    height: 10px;
+    border-radius: 11px;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(1) div {
+    background: url(../assets/img/liferay.png);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(1) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div {
+    background: url(../assets/img/modyo.png);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div {
+    background: url(../assets/img/bootstrap.png);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35% 150%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div {
+    background: url(../assets/img/html5.png);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div.carousel-caption h3 {
+    color: #343a40;
+  }
+  div.carousel.slide a.carousel-control-prev:hover {
+    background-color: #3A9583;
+    opacity: 0.2;
+    border-top-right-radius: 10px;
+  }
+  div.carousel.slide a.carousel-control-next:hover {
+    background-color: #3A9583;
+    opacity: 0.2;
+    border-top-left-radius: 10px;
+  }
 }
-div.carousel.slide ul.carousel-indicators li {
-  background-color: #343a40;
-  height: 10px;
-  border-radius: 11px;
-}
-div.carousel.slide ul.carousel-indicators li.active {
-  background-color: #3A9583;
-  height: 10px;
-  border-radius: 11px;
-}
-div.carousel.slide div.carousel-inner .carousel-item img {
-  width: 30%;
-  height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  display: block;
-}
-div.carousel.slide div.carousel-inner .carousel-item div.carousel-caption h3 {
-  color: #343a40;
-}
-div.carousel.slide a.carousel-control-prev:hover {
-  background-color: #3A9583;
-  opacity: 0.2;
-  border-top-right-radius: 10px;
-}
-div.carousel.slide a.carousel-control-next:hover {
-  background-color: #3A9583;
-  opacity: 0.2;
-  border-top-left-radius: 10px;
-}
-
 @media (max-width: 767px) {
+  ul.carousel-indicators {
+    margin-top: 20px;
+  }
+  ul.carousel-indicators li {
+    background-color: #343a40;
+    height: 10px;
+    border-radius: 11px;
+  }
+  ul.carousel-indicators li.active {
+    background-color: #3A9583;
+    height: 10px;
+    border-radius: 11px;
+  }
+
   div.carousel.slide {
     margin-bottom: 50px;
   }
-  div.carousel.slide div.carousel-inner .carousel-item img {
-    width: 70%;
-    height: 110px;
-    padding-bottom: 20px;
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(1) div {
+    background: url(../assets/img/liferay.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div {
+    background: url(../assets/img/modyo.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div {
+    background: url(../assets/img/bootstrap.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    display: block;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div {
+    background: url(../assets/img/html5.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20% 100%;
+    margin-bottom: 50px;
+    display: block;
   }
   div.carousel.slide a.carousel-control-prev:hover {
     border-top-right-radius: 10px;
