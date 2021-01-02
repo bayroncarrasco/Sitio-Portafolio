@@ -42,79 +42,93 @@
                     }
                     ul.list-style-none{
                         padding-left: 0px;
-                        li.d-inline:nth-child(1){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+
+                        .row{
+                            .col-6.col-sm-6:nth-child(1){
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$rojo;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$rojo;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(2){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+
+                            .col-6.col-sm-6:nth-child(2){
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$amarillo;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$amarillo;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(3){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+
+                            .col-6.col-sm-6:nth-child(3){                                
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$brown;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$verde;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(4){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+
+                            .col-6.col-sm-6:nth-child(4){
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$orange;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$orange;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
                                 }
                             }
                         }
@@ -224,84 +238,101 @@
                         text-align: -webkit-center;
                         padding-bottom: 20px;
                         border-bottom: 2px dotted white;
+                        .row{
+                            .col-6.col-sm-6:nth-child(1){
+                                text-align: -webkit-right;
 
-                        li.d-inline:nth-child(1){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$rojo;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                            font-size: 14px;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$rojo;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
-                                    font-size: 14px;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(2){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+                            .col-6.col-sm-6:nth-child(2){
+                                text-align: -webkit-left;
+
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$amarillo;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                            font-size: 14px;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$amarillo;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
-                                    font-size: 14px;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(3){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+                            .col-6.col-sm-6:nth-child(3){
+                                text-align: -webkit-right;
+
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$verde;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                            font-size: 14px;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$verde;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
-                                    font-size: 14px;
                                 }
                             }
-                        }
-                        li.d-inline:nth-child(4){
-                            display: table-cell !important;
-                            a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3{
-                                svg{
-                                    overflow: hidden;
-                                    &.octicon{
-                                        vertical-align: text-top;
-                                        fill: currentColor;
+                            .col-6.col-sm-6:nth-child(4){
+                                text-align: -webkit-left;
+
+                                li{
+                                    display: table-cell !important;
+                                    a.d-inline-flex.text-small{
+                                        svg{
+                                            overflow: hidden;
+                                            &.octicon{
+                                                vertical-align: text-top;
+                                                fill: currentColor;
+                                            }
+                                            &.octicon-dot-fill{
+                                                color:$orange;
+                                            }
+                                        }
+                                        span:nth-child(2){
+                                            color: $bg-c-blanco;
+                                            font-family: $font-family-sans-serif;
+                                            font-size: 14px;
+                                        }
                                     }
-                                    &.octicon-dot-fill.mr-2{
-                                        color:$orange;
-                                    }
-                                }
-                                span:nth-child(2){
-                                    color: $bg-c-blanco;
-                                    font-family: $font-family-sans-serif;
-                                    font-size: 14px;
                                 }
                             }
                         }
