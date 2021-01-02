@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
-* Copyright 2013-2020 Start Bootstrap
+* Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 .bg-black {
@@ -11107,14 +11107,6 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     margin-bottom: 50px;
     display: block;
   }
-  div.carousel.slide a.carousel-control-prev .carousel-control-prev-icon {
-    border-radius: 10px;
-    background-color: #3A9583;
-  }
-  div.carousel.slide a.carousel-control-next:hover .carousel-control-next-icon {
-    border-radius: 10px;
-    background-color: #3A9583;
-  }
 }
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
@@ -11252,71 +11244,71 @@ div.loading.show {
   div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none {
     padding-left: 0px;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: #C43029;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: yellow;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
-    color: green;
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg.octicon-dot-fill {
+    color: #5c4d42;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: #f4623a;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -11408,74 +11400,86 @@ div.loading.show {
     padding-bottom: 20px;
     border-bottom: 2px dotted white;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) {
+    text-align: -webkit-right;
+  }
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: #C43029;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(1) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(1) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 14px;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) {
+    text-align: -webkit-left;
+  }
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: yellow;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(2) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(2) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 14px;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) {
+    text-align: -webkit-right;
+  }
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: green;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(3) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(3) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 14px;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) {
+    text-align: -webkit-left;
+  }
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li {
     display: table-cell !important;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg {
     overflow: hidden;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg.octicon {
     vertical-align: text-top;
     fill: currentColor;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 svg.octicon-dot-fill.mr-2 {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small svg.octicon-dot-fill {
     color: #f4623a;
   }
-  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none li.d-inline:nth-child(4) a.d-inline-flex.flex-items-center.flex-nowrap.link-gray.no-underline.text-small.mr-3 span:nth-child(2) {
+  div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(1) ul.list-style-none .row .col-6.col-sm-6:nth-child(4) li a.d-inline-flex.text-small span:nth-child(2) {
     color: white;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 14px;
