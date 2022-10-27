@@ -377,6 +377,8 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $bg-dark;
+                border-top-left-radius: 10px; 
+                border-bottom-left-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -416,8 +418,6 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $verde-claro;
-                border-top-right-radius: 10px;  
-                border-bottom-right-radius: 10px;
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -457,6 +457,8 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $bg-dark;
+                border-top-right-radius: 10px;  
+                border-bottom-right-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -496,8 +498,8 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $verde-claro;
-                border-top-right-radius: 10px;  
-                border-bottom-right-radius: 10px;
+                border-top-left-radius: 10px; 
+                border-bottom-left-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -577,7 +579,7 @@ section#conocimientos{
                 align-items: center;
                 background-color: $verde-claro;
                 border-top-right-radius: 10px;  
-                border-bottom-right-radius: 10px;
+                border-bottom-right-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -617,6 +619,8 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $bg-dark;
+                border-top-left-radius: 10px; 
+                border-bottom-left-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -656,8 +660,6 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $verde-claro;
-                border-top-right-radius: 10px;  
-                border-bottom-right-radius: 10px;
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -697,6 +699,8 @@ section#conocimientos{
                 display: flex;
                 align-items: center;
                 background-color: $bg-dark;
+                border-top-right-radius: 10px;  
+                border-bottom-right-radius: 10px; 
                 margin-top: 5px;  
                 div.contenedorInterno{
                     width: 100%;
@@ -716,7 +720,7 @@ section#conocimientos{
         }
 
     }
-    div.col-lg-4.col-sm-4.col-xs-12:nth-child(18):hover{
+    div.col-lg-4.col-sm-4.col-xs-12:nth-child(16):hover{
         -webkit-transform:scale(0.9);
         -moz-transform:scale(0.9);
         -ms-transform:scale(0.9);

@@ -10904,6 +10904,8 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #343a40;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(10) div#contenedorExternoCss div.contenedorInterno {
@@ -10934,8 +10936,6 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #3A9583;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(11) div#contenedorExternoCss div.contenedorInterno {
@@ -10966,6 +10966,8 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #343a40;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(12) div#contenedorExternoCss div.contenedorInterno {
@@ -10996,8 +10998,8 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #3A9583;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(13) div#contenedorExternoCss div.contenedorInterno {
@@ -11090,6 +11092,8 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #343a40;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(16) div#contenedorExternoCss div.contenedorInterno {
@@ -11120,8 +11124,6 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #3A9583;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(17) div#contenedorExternoCss div.contenedorInterno {
@@ -11152,6 +11154,8 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   display: flex;
   align-items: center;
   background-color: #343a40;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   margin-top: 5px;
 }
 section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-child(18) div#contenedorExternoCss div.contenedorInterno {
@@ -11167,7 +11171,7 @@ section#conocimientos div.row.no-gutters div.col-lg-4.col-sm-4.col-xs-12:nth-chi
   margin-bottom: 0rem;
   color: white;
 }
-section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(18):hover {
+section#conocimientos div.col-lg-4.col-sm-4.col-xs-12:nth-child(16):hover {
   transform: scale(0.9);
 }
 
