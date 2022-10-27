@@ -133,6 +133,57 @@
                     }
                 }
             }
+            .carousel-item:nth-child(8){
+                div{
+                    background: url(../assets/img/airtable.png);
+                    width: 100%;
+                    height: 160px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 15% 150%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+                div.carousel-caption{
+                    h3{
+                        color: $bg-dark;
+                    }
+                }
+            }
+            .carousel-item:nth-child(9){
+                div{
+                    background: url(../assets/img/vue.png);
+                    width: 100%;
+                    height: 160px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 15% 150%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+                div.carousel-caption{
+                    h3{
+                        color: $bg-dark;
+                    }
+                }
+            }
+            .carousel-item:nth-child(10){
+                div{
+                    background: url(../assets/img/git.png);
+                    width: 100%;
+                    height: 160px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 10% 100%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+                div.carousel-caption{
+                    h3{
+                        color: $bg-dark;
+                    }
+                }
+            }
         }
         a.carousel-control-prev:hover{
             background-color: $verde-claro;
@@ -244,6 +295,42 @@
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: 40% 130%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+            }
+            .carousel-item:nth-child(8){
+                div{
+                    background: url(../assets/img/airtable.png);
+                    width: 100%;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 40% 130%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+            }
+            .carousel-item:nth-child(9){
+                div{
+                    background: url(../assets/img/vue.png);
+                    width: 100%;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 25% 100%;
+                    margin-bottom: 50px;
+                    display: block;
+                }
+            }
+            .carousel-item:nth-child(10){
+                div{
+                    background: url(../assets/img/git.png);
+                    width: 100%;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 25% 100%;
                     margin-bottom: 50px;
                     display: block;
                 }

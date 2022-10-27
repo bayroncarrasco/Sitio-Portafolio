@@ -14,6 +14,7 @@ $bg-black: black;
 $bg-c-blanco: white;
 $bg-dark: #343a40;
 $bg-celeste: #228D97;
+$gris-claro: #abacac;
 
 //- Override primary color
 $primary: $orange;
@@ -40,6 +41,7 @@ $navbar-height: 4.5rem;
 .bg-c-negro{ color: $bg-black;}
 .bg-c-verde-claro{ background-color: $verde-claro;}
 .bg-c-verde{ background-color: $verde-claro;}
+.bg-c-gris{ background-color: $gris-claro;}
 
 //- Variables de Altura
 .pt-30{ padding-top: 30px;}
