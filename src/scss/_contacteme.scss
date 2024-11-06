@@ -1,0 +1,75 @@
+.row {
+    .col-lg-3.col-xs-12{
+        a#contacteme{
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90px;
+            height: 90px;
+            bottom: 150px;
+            right: 30px;
+            z-index: 99;
+            font-size: 16px;
+            border: 6px solid $secondary-color;
+            outline: none;
+            background-color: $primary-color;
+            cursor: pointer;
+            border-radius: 50px;
+            button.contactemee{
+                border: none;
+                display: flex;
+                background: transparent;
+                span.texto-contacteme{
+                    font-family: $font-family-nunito-sans;
+                    color: $bg-c-blanco;
+                    font-size: 14px;
+                    background: transparent;
+                }
+            }
+        }
+        a#contacteme:hover{
+            background-color: $terciary-color;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .row {
+        .col-lg-3.col-xs-12{
+            a#contacteme{
+                position: fixed;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 60px;
+                height: 60px;
+                bottom: 130px;
+                right: 20px;
+                z-index: 99;
+                font-size: 16px;
+                border: 8px solid $bg-black;
+                outline: none;
+                background-color: $secondary-color;
+                cursor: pointer;
+                border-radius: 50px;
+                button.contactemee{
+                    border: none;
+                    display: flex;
+                    background: transparent;
+                    span.texto-contacteme{
+                        font-family: $font-family-nunito-sans;
+                        color: $bg-c-blanco;
+                        font-size: 11px;
+                        background: transparent;
+                    }
+                }
+            }
+            a#contacteme:hover{
+                background-color: $terciary-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
