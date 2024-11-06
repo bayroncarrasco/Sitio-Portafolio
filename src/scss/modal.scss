@@ -5,7 +5,7 @@ div.mfp-content{
             right: 0px;
             font-size: 40px;
             color: $bg-c-blanco;
-            background-color: $verde-claro;
+            background-color: $primary-color;
             text-align: center;
             padding-right: 0px;
             width: 100%;
@@ -21,7 +21,7 @@ div.mfp-content{
                 div.mfp-bottom-bar{
                     color: $bg-c-blanco;
                     height: 30px;
-                    background-color: $verde-claro;
+                    background-color: $primary-color;
                     border-bottom-left-radius: 10px;
                     border-bottom-right-radius: 10px;
 
@@ -42,7 +42,7 @@ div.mfp-content{
         color: $bg-c-blanco;
     }
     button.mfp-arrow.mfp-arrow-left.mfp-prevent-close{
-        background: $verde-claro;
+        background: $primary-color;
         color: $bg-c-blanco;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
@@ -53,13 +53,13 @@ div.mfp-content{
             border-right: 27px solid $bg-c-blanco;
         }
         &.mfp-arrow-left:after{
-            border-right: 17px solid $verde-claro;
+            border-right: 17px solid $primary-color;
             margin-left: 31px;
         }
     }
 
     button.mfp-arrow.mfp-arrow-right.mfp-prevent-close{
-        background: $verde-claro;
+        background: $primary-color;
         color: $bg-c-blanco;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -70,7 +70,7 @@ div.mfp-content{
         }
     
         &.mfp-arrow-right:after{
-            border-left: 17px solid $verde-claro;
+            border-left: 17px solid $primary-color;
             margin-left: 39px;
         }
     }
@@ -93,7 +93,7 @@ div.mfp-content{
             border-right: 27px solid $bg-c-blanco;
         }
         &.mfp-arrow-left:after{
-            border-right: 17px solid $verde-claro;
+            border-right: 17px solid $primary-color;
             margin-left: 31px;
         }
         &.mfp-arrow:before {
@@ -115,7 +115,7 @@ div.mfp-content{
         }
     
         &.mfp-arrow-right:after{
-            border-left: 17px solid $verde-claro;
+            border-left: 17px solid $primary-color;
             margin-left: 39px;
         }
         &.mfp-arrow:after {

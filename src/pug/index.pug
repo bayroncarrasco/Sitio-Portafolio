@@ -20,6 +20,8 @@ html(lang='en')
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic', rel='stylesheet', type='text/css')
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 
         // Third party plugin CSS
         link(href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css', rel='stylesheet')
@@ -61,12 +63,12 @@ html(lang='en')
                     .col-lg-10.align-self-end
                         h1.text-uppercase.text-white.font-weight-bold Bayron Elías Carrasco Valdés
                         hr.divider-blanco-pre.my-4
-                    .col-lg-8.align-self-baseline
+                    .col-lg-12.align-self-baseline
                         h3.text-uppercase.text-white.font-weight-bold
                             | Ingeniero en Informática
-                        p.bg-c-blanco.font-weight-light.mb-5
-                            | Desarrollador Front-end vue.js, administrador y gestor de contenidos en plataformas cms, modyo, liferay, etc.
-                        a.btn.btn-secondary.btn-xl.js-scroll-trigger(href='#about') Saber más
+                        p.bg-c-blanco.font-weight-light.mb-5.mt-5
+                            | Desarrollador Front-end especializado en Vue.js, con experiencia en React.js y Next.js. Con conocimientos sólidos en la creación de widgets y componentes CLI, así como en la gestión y administración de contenidos en plataformas CMS como Modyo (8, 9), Liferay (6.2, 7, DXP), Acquia y Drupal 10, DAM, entre otras. Actualmente, ejerzo como Líder Técnico en proyectos de DXP, coordinando equipos y supervisando el desarrollo bajo metodologías ágiles. Cuento con una sólida trayectoria liderando equipos multidisciplinarios (células), fomentando la colaboración, optimizando procesos y promoviendo la innovación en cada proyecto.
+                        a.btn.bg-btn-primary.btn-xl0.js-scroll-trigger(href='#about') Saber más
 
         // About
         section#about.bg-secondary.pt-80.pb-80
@@ -75,8 +77,8 @@ html(lang='en')
                     .col-lg-8.text-center
                         h2.text-white.mt-0 Presentación
                         hr.divider.light.my-4
-                        p.mb-4.bg-c-blanco.text-justify
-                            | En la siguiente sección encontrará, los proyectos en los cuales he participado, tanto en la plataforma de modyo 8 y 9, como también en lo que respecta a Liferay. Cada uno de estos proyectos son administrados y gestionados mediante el cms antes mencionado.
+                        p.mb-4.bg-c-blanco.text-justify.font-familiy-nunito(style="font-size: 1.1rem")
+                            | En la siguiente sección, encontrará los proyectos en los que he participado, tanto en las plataformas DXP Modyo 8 y 9 como en Liferay. Todos estos proyectos son gestionados y administrados a través de los CMS mencionados.<br>Además, incluyo proyectos desarrollados con tecnologías como Vue.js, React.js y Next.js.
                         
                         a.btn.btn-light.btn-xl.js-scroll-trigger(href='#portfolio') Ir a mi Portafolio
                     
@@ -97,7 +99,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Movistar Chile
                                     p.card-text Desarrollo Front End.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body.link1
                                     h3.card-title Reseña
                                     p.card-text Se realizó desarrollo Front End de Sitio Movistar Empresas y Coporaciones, creación de nuevas landings page y modificación de menú del sitio. Además se implementó menú y footer de forma transversal.
@@ -107,7 +109,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor2
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Movistar Chile
@@ -122,7 +124,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor3
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Intranet Claro chile
@@ -142,7 +144,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Público Banco Central
                                     p.card-text Gestión de contenidos, administración y desarrollo.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Administración de Sitio público Banco Central, creación de contenidos administrables mediante plantillas y estructuras en Liferay 7.1. Además de la modificación de desarrollos back-end (Portlets).
@@ -157,7 +159,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Público Banco Central
                                     p.card-text Migración de contenidos.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Migración de contenidos del sitio antiguo al nuevo sitio público en Liferay 7.1.
@@ -167,7 +169,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor6
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Banco Central SIID
@@ -182,7 +184,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor7
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Correos chile
@@ -202,7 +204,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitios Parque Arauco Chile
                                     p.card-text Administración y creación.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Administración de Sitio Parque Arauco Chile, creación de snippets con seo base para el sitio, configuración de robots y sitemap en Modyo 8.
@@ -217,7 +219,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitios Parque Arauco Perú
                                     p.card-text Administración y creación.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Administración de Sitio Parque Arauco Chile/Perú, creación de snippets con seo base para el sitio, configuración de robots y sitemap en Modyo 8.
@@ -227,7 +229,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor10
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Mega Plaza Perú
@@ -242,7 +244,7 @@ html(lang='en')
                                         | Ver imagen referencial
                     .col-lg-8.col-sm-6#contenedor11
                         .card.card-flip
-                            .card-front.text-white.bg-dark
+                            .card-front.text-white.bg-secundary
                                 .card-body
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Banco de Chile (Rutas para Chile)
@@ -262,7 +264,7 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Onboarding Somos Dando
                                     p.card-text Desarrollo administración y creación
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Creación de widgets CLI para cada una de las páginas del flujo del onboarding, para el registro de nuevos agentes con el fin de ser asignado al cliente para la futura obtención de un crédito.
@@ -277,13 +279,58 @@ html(lang='en')
                                     i.fa.fa-plus-square.fa-3x.float-right
                                     h3.card-title Sitio Bci Labs
                                     p.card-text Desarrollo, administración y creación.
-                            .card-back.bg-dark
+                            .card-back.bg-card-back
                                 .card-body
                                     h3.card-title Reseña
                                     p.card-text Creación del nuevo sitio de bci labs, con formularios conectados a base de datos en aws. Los formularios son de postulación, contáctanos y suscripción los cuáles fueron creados con la libreria de vue-validate.
                                     a.btn.btn-outline-secondary#btn24Escritorio(href='assets/img/portfolio/fullsize/Bci-labs/bci-labs.png')
                                         | Ver imagen referencial
                                     a.btn.btn-outline-secondary#btn25Mobile(href='assets/img/portfolio/mobile/bci-labs-mobile.png')
+                                        | Ver imagen referencial
+                    .col-lg-8.col-sm-6#contenedor14
+                        .card.card-flip
+                            .card-front.text-white.bg-secundary
+                                .card-body
+                                    i.fa.fa-plus-square.fa-3x.float-right
+                                    h3.card-title Sitio Público Pc Factory
+                                    p.card-text Desarrollo administración y creación de widgets
+                            .card-back.bg-card-back
+                                .card-body
+                                    h3.card-title Reseña
+                                    p.card-text Creación de widgets CLI para gestionar toda la capa de compra de productos, incluyendo funcionalidades como añadir al carrito, entre otras. Además, desarrollé widgets utilizando el lenguaje de plantillas Liquid, con el fin de mostrar contenidos que sean administrables desde el sistema de gestión de contenidos.
+                                    a.btn.btn-outline-secondary#btn26Escritorio(href='assets/img/portfolio/fullsize/Pc-factory/pcfactory-desktop.png')
+                                        | Ver imagen referencial
+                                    a.btn.btn-outline-secondary#btn27Mobile(href='assets/img/portfolio/mobile/pcfactory-mobile.png')
+                                        | Ver imagen referencial
+                    .col-lg-8.col-sm-6#contenedor15
+                        .card.card-flip
+                            .card-front.text-white.bg-secundary
+                                .card-body
+                                    i.fa.fa-plus-square.fa-3x.float-right
+                                    h3.card-title Cámara Chilena de la Construcción
+                                    p.card-text Desarrollo de plataforma Trabajo en Obras
+                            .card-back.bg-card-back
+                                .card-body
+                                    h3.card-title Reseña
+                                    p.card-text Desarrollo de componentes en React utilizando Next.js, con el objetivo de crear componentes reutilizables y escalables. Estos componentes permiten gestionar el flujo de registro de personas y empresas, facilitando la publicación de ofertas laborales. De esta manera, los usuarios finales (personas) pueden acceder a oportunidades de empleo a través de la plataforma.
+                                    a.btn.btn-outline-secondary#btn28Escritorio(href='assets/img/portfolio/fullsize/Trabajo-en-obras/trabajo-desktop.png')
+                                        | Ver imagen referencial
+                                    a.btn.btn-outline-secondary#btn29Mobile(href='assets/img/portfolio/mobile/trabajo-mobile.png')
+                                        | Ver imagen referencial
+                    .col-lg-4.col-sm-6#contenedor16
+                        .card.card-flip
+                            .card-front.text-white.bg-c-verde-claro
+                                .card-body
+                                    i.fa.fa-plus-square.fa-3x.float-right
+                                    h3.card-title Landing Teletón Fortnite Banco de Chile
+                                    p.card-text Desarrollo de landing estática.
+                            .card-back.bg-card-back
+                                .card-body
+                                    h3.card-title Reseña
+                                    p.card-text Desarrollo de una landing page utilizando un widget CLI en Modyo 9, con el objetivo de crear un formulario de inscripción para los participantes del videojuego Fortnite en apoyo a la Teletón.
+                                    a.btn.btn-outline-secondary#btn30Escritorio(href='assets/img/portfolio/fullsize/Banco-de-chile/gamers-desktop.png')
+                                        | Ver imagen referencial
+                                    a.btn.btn-outline-secondary#btn31Mobile(href='assets/img/portfolio/mobile/gamers-mobile.png')
                                         | Ver imagen referencial
         // Mis Conocimientos
         section#conocimientos.container.pt-80.pb-80
@@ -305,7 +352,7 @@ html(lang='en')
                     .col-lg-4.col-sm-4.col-xs-12
                         div#contenedorExternoCss
                             div.contenedorInterno
-                                h5 Bootstrap 4
+                                h5 Bootstrap 4, 5
                     .col-lg-4.col-sm-4.col-xs-12
                         div#contenedorExternoCss
                             div.contenedorInterno
@@ -365,6 +412,30 @@ html(lang='en')
                     .col-lg-4.col-sm-4.col-xs-12
                         div#contenedorExternoCss
                             div.contenedorInterno
+                                h5 Desarrollo de componentes reutilizables con React.js.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
+                                h5 Desarrollo de componentes con Next.js para aplicaciones web modernas.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
+                                h5 Desarrollo de componentes reutilizables utilizando Tailwind CSS.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
+                                h5 Desarrollo de pipelines en GitHub y Bitbucket, con despliegue de widgets en ambiente Modyo 9.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
+                                h5 Dominio de Flexbox y Grid para la maquetación web.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
+                                h5 Aplicación de buenas prácticas en el uso de cada tecnología.
+                    .col-lg-4.col-sm-4.col-xs-12
+                        div#contenedorExternoCss
+                            div.contenedorInterno
                                 h5 Servicios post y get mediante axios, fetch.
         
         // Mis Experiencias
@@ -388,13 +459,25 @@ html(lang='en')
                             div.contenedorInterno
                                 h5 Vass Chile
                                 p Cargo: Desarrollador front - back end
-                                p Julio 2018 - Noviembre 2021
+                                p Agosto 2018 - Noviembre 2021
                     .col-lg-6.col-sm-6.col-xs-12
                         div#contenedorExternoExp
                             div.contenedorInterno
                                 h5 2Brains
                                 p Cargo: Desarrollador front end Modyo
-                                p Noviembre 2021 - Actualidad
+                                p Diciembre 2021 - Agosto 2022
+                    .col-lg-6.col-sm-6.col-xs-12
+                        div#contenedorExternoExp
+                            div.contenedorInterno
+                                h5 2Brains
+                                p Cargo: Modyo Expert - Desarrollador front end
+                                p Septiembre 2022 - Junio 2024
+                    .col-lg-6.col-sm-6.col-xs-12
+                        div#contenedorExternoExp
+                            div.contenedorInterno
+                                h5 2Brains
+                                p Cargo: Lider técnico Dxp - Desarrollador front end
+                                p Julio 2024 - Actualidad
         // Tecnologías
         section#tecnologias.container-fluid.pt-80
             div.text-center
@@ -413,6 +496,10 @@ html(lang='en')
                 li(data-target='#demo', data-slide-to='7')
                 li(data-target='#demo', data-slide-to='8')
                 li(data-target='#demo', data-slide-to='9')
+                li(data-target='#demo', data-slide-to='10')
+                li(data-target='#demo', data-slide-to='11')
+                li(data-target='#demo', data-slide-to='12')
+                li(data-target='#demo', data-slide-to='13')
             .carousel-inner
                 .carousel-item.active
                     div(alt='liferay')
@@ -434,6 +521,14 @@ html(lang='en')
                     div(alt='vue')
                 .carousel-item
                     div(alt='git')
+                .carousel-item
+                    div(alt='pug')
+                .carousel-item
+                    div(alt='react')
+                .carousel-item
+                    div(alt='next')
+                .carousel-item
+                    div(alt='tailwind')
             a.carousel-control-prev(href='#demo', data-slide='prev')
                 span.carousel-control-prev-icon
             a.carousel-control-next(href='#demo', data-slide='next')

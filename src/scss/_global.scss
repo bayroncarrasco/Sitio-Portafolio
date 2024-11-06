@@ -35,7 +35,7 @@ r.divider-negro {
 hr.divider-verde-claro {
     max-width: 3.25rem;
     border-width: 0.2rem;
-    border-color: $verde-claro;
+    border-color: $primary-color;
 }
 
 hr.light {
@@ -55,6 +55,16 @@ p {
 }
 
 //- Custom XL button styling
+
+.btn-xl0 {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3rem;
+    color: $bg-c-blanco;
+}
 
 .btn-xl {
     padding: 1.25rem 2.25rem;

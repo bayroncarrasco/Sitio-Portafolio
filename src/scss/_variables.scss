@@ -9,16 +9,23 @@ $black: black;
 $rojo: #C43029;
 $amarillo: yellow;
 $verde: green;
-$verde-claro: #3A9583;
+$primary-color: #2c3e50;
+$secondary-color: #04707f;
+$terciary-color: #bb3f98;
+$secondary-color-gradient: linear-gradient(
+  to bottom,
+  rgba($grey, 0.5) 0%,
+  rgba($grey, 0.5) 100%
+), $secondary-color;
+$back-card-color: #2c3e50;
 $bg-black: black;
 $bg-c-blanco: white;
-$bg-dark: #343a40;
 $bg-celeste: #228D97;
 $gris-claro: #abacac;
 
 //- Override primary color
 $primary: $orange;
-$secondary: $verde-claro;
+$secondary: $primary-color;
 
 //- Override font system
 $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
@@ -27,20 +34,47 @@ $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
 $font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-base: $font-family-serif;
-$headings-font-family: $font-family-sans-serif;
+
+$font-family-play-serif: "Play", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-tenali-sans-serif: "Tenali Ramakrishna", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-big-shoulders-sans-serif: "Big Shoulders Inline Text", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-nunito-sans: "Nunito Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-family-base: $font-family-big-shoulders-sans-serif;
+$headings-font-family: $font-family-nunito-sans;
 
 //- Add custom variables
 $navbar-height: 4.5rem;
 
+//- Variables de fuentes
+.font-familiy-nunito{font-family: $font-family-nunito-sans;}
+
 //- Variables de colores
+.bg-btn-primary{ background-color: $terciary-color !important;}
 .bg-black{ background-color: $bg-black;}
-.bg-dark{ background-color: $bg-dark;}
+.bg-dark{ background-color: $secondary-color;}
+.bg-secundary {
+    background: linear-gradient(
+            to bottom,
+            #{fade-out($grey, 0.5)} 0%,
+            #{fade-out($grey, 0.8)} 100%
+        ),
+        $secondary-color;
+}
+.bg-card-back{ background-color: $back-card-color;}
 .bg-c-blanco{ color: $bg-c-blanco;}
 .bg-c-blanco-copyright{ color: $bg-c-blanco;}
 .bg-c-negro{ color: $bg-black;}
-.bg-c-verde-claro{ background-color: $verde-claro;}
-.bg-c-verde{ background-color: $verde-claro;}
+.bg-c-verde-claro{ background-color: $primary-color;}
+.bg-c-verde{ background-color: $primary-color;}
 .bg-c-gris{ background-color: $gris-claro;}
 
 //- Variables de Altura

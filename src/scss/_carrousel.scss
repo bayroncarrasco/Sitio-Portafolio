@@ -1,340 +1,109 @@
-@media (min-width: 768px){    
-    div.carousel.slide{
-        ul.carousel-indicators{
-            margin-top: 20px;
-            li{
-                background-color: $bg-dark;
-                height: 10px;
-                border-radius: 11px;
-            }
-            li.active{
-                background-color: $verde-claro;
-                height: 10px;
-                border-radius: 11px;
-            }
+// Estilos comunes para el carrusel
+$carousel-item-default-size: 100px;
+$carousel-item-height: 160px;
+$carousel-item-margin-bottom: 50px;
+$carousel-item-display: block;
+$carousel-item-background-repeat: no-repeat;
+$carousel-item-background-position: center;
+
+// Definimos tamaños de fondo específicos para cada imagen
+$background-sizes: (
+  1: contain,  // liferay.png
+  2: contain,  // modyo.png
+  3: contain,  // bootstrap.png
+  4: contain,  // html5.png
+  5: contain,  // css.png
+  6: contain,  // js.png
+  7: contain,  // sass.png
+  8: contain,  // airtable.png
+  9: contain,  // vue.png
+  10: contain, // git.png
+  11: contain  // pug.png
+);
+
+@media (min-width: 768px) {    
+  div.carousel.slide {
+    ul.carousel-indicators {
+      margin-top: 20px;
+
+      li {
+        background-color: $secondary-color;
+        height: 10px;
+        border-radius: 11px;
+
+        &.active {
+          background-color: $primary-color;
         }
-        div.carousel-inner{
-            .carousel-item:nth-child(1){
-                div{
-                    background: url(../assets/img/liferay.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 25% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(2){
-                div{
-                    background: url(../assets/img/modyo.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 25% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(3){
-                div{
-                    background: url(../assets/img/bootstrap.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 15% 160%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(4){
-                div{
-                    background: url(../assets/img/html5.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 9% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(5){
-                div{
-                    background: url(../assets/img/css.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 9% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(6){
-                div{
-                    background: url(../assets/img/js.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 9% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(7){
-                div{
-                    background: url(../assets/img/sass.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 15% 150%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(8){
-                div{
-                    background: url(../assets/img/airtable.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 15% 150%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(9){
-                div{
-                    background: url(../assets/img/vue.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 15% 150%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-            .carousel-item:nth-child(10){
-                div{
-                    background: url(../assets/img/git.png);
-                    width: 100%;
-                    height: 160px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 10% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-                div.carousel-caption{
-                    h3{
-                        color: $bg-dark;
-                    }
-                }
-            }
-        }
-        a.carousel-control-prev:hover{
-            background-color: $verde-claro;
-            opacity: 0.2;
-            border-top-right-radius: 10px ;
-        } 
-        a.carousel-control-next:hover{
-            background-color: $verde-claro;
-            opacity: 0.2;
-            border-top-left-radius: 10px ;
-        } 
+      }
     }
+
+    div.carousel-inner {
+      @for $i from 1 to 15 {
+        .carousel-item:nth-child(#{$i}) {
+          div {
+            background: url(../assets/img/img-#{$i}.png);
+            width: 100%;
+            height: $carousel-item-height;
+            background-repeat: $carousel-item-background-repeat;
+            background-position: $carousel-item-background-position;
+            margin-bottom: $carousel-item-margin-bottom;
+            display: $carousel-item-display;
+
+            // Tamaño específico para cada imagen, manteniendo proporciones
+            background-size: map-get($background-sizes, $i); 
+          }
+
+          div.carousel-caption h3 {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+
+    a.carousel-control-prev:hover,
+    a.carousel-control-next:hover {
+      background-color: $primary-color;
+      opacity: 0.2;
+      border-radius: 10px;
+    }
+  }
 }
 
-@media (max-width: 767px){
-    ul.carousel-indicators{
-        margin-top: 20px;
-        li{
-            background-color: $bg-dark;
-            height: 10px;
-            border-radius: 11px;
-        }
-        li.active{
-            background-color: $verde-claro;
-            height: 10px;
-            border-radius: 11px;
-        }
+@media (max-width: 767px) {
+  ul.carousel-indicators {
+    margin-top: 20px;
+
+    li {
+      background-color: $secondary-color;
+      height: 10px;
+      border-radius: 11px;
+
+      &.active {
+        background-color: $primary-color;
+      }
     }
-    div.carousel.slide{
-        margin-bottom: 50px;
-        div.carousel-inner{
-            .carousel-item:nth-child(1){
-                div{
-                    background: url(../assets/img/liferay.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 85% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(2){
-                div{
-                    background: url(../assets/img/modyo.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 85% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(3){
-                div{
-                    background: url(../assets/img/bootstrap.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 45% 160%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(4){
-                div{
-                    background: url(../assets/img/html5.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 20% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(5){
-                div{
-                    background: url(../assets/img/css.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 20% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(6){
-                div{
-                    background: url(../assets/img/js.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 25% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(7){
-                div{
-                    background: url(../assets/img/sass.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 40% 130%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(8){
-                div{
-                    background: url(../assets/img/airtable.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 40% 130%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(9){
-                div{
-                    background: url(../assets/img/vue.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 25% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
-            .carousel-item:nth-child(10){
-                div{
-                    background: url(../assets/img/git.png);
-                    width: 100%;
-                    height: 100px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 25% 100%;
-                    margin-bottom: 50px;
-                    display: block;
-                }
-            }
+  }
+
+  div.carousel.slide {
+    margin-bottom: 50px;
+
+    div.carousel-inner {
+      @for $i from 1 to 15 {
+        .carousel-item:nth-child(#{$i}) {
+          div {
+            background: url(../assets/img/img-#{$i}.png); // Generando la URL dinámicamente
+            width: 100%;
+            height: $carousel-item-default-size;
+            background-repeat: $carousel-item-background-repeat;
+            background-position: $carousel-item-background-position;
+            margin-bottom: $carousel-item-margin-bottom;
+            display: $carousel-item-display;
+
+            // Tamaño específico para cada imagen, manteniendo proporciones
+            background-size: map-get($background-sizes, $i);
+          }
         }
+      }
     }
+  }
 }
