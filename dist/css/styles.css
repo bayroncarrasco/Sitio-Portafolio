@@ -10175,8 +10175,7 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-radius: 3rem;
 }
 
 .btn-xl-2 {
@@ -10185,8 +10184,7 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-bottom-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
+  border-radius: 3rem;
 }
 
 .btn-xl-copyright {
@@ -11739,6 +11737,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div {
     background: url(../assets/img/img-2.png);
@@ -11748,6 +11748,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
     background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div {
@@ -11759,6 +11761,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div {
     background: url(../assets/img/img-4.png);
@@ -11768,6 +11772,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
     background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div {
@@ -11779,6 +11785,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div {
     background: url(../assets/img/img-6.png);
@@ -11788,6 +11796,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
     background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div {
@@ -11799,6 +11809,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(8) div {
     background: url(../assets/img/img-8.png);
@@ -11808,6 +11820,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
     background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(9) div {
@@ -11819,6 +11833,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(10) div {
     background: url(../assets/img/img-10.png);
@@ -11828,6 +11844,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
     background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(11) div {
@@ -11839,6 +11857,8 @@ div.carousel.slide a.carousel-control-next:hover {
     margin-bottom: 50px;
     display: block;
     background-size: contain;
+    padding-top: 56.25%;
+    background-size: contain;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(12) div {
     background: url(../assets/img/img-12.png);
@@ -11848,6 +11868,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(13) div {
     background: url(../assets/img/img-13.png);
@@ -11857,6 +11879,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(14) div {
     background: url(../assets/img/img-14.png);
@@ -11866,6 +11890,8 @@ div.carousel.slide a.carousel-control-next:hover {
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: contain;
+    padding-top: 56.25%;
   }
 }
 .text-white-75 {

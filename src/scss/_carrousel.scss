@@ -99,6 +99,8 @@ $background-sizes: (
             margin-bottom: $carousel-item-margin-bottom;
             display: $carousel-item-display;
 
+            background-size: contain;
+            padding-top: 56.25%;
             // Tamaño específico para cada imagen, manteniendo proporciones
             background-size: map-get($background-sizes, $i);
           }
