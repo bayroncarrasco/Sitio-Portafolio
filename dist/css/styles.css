@@ -12533,7 +12533,7 @@ div.mfp-content div.mfp-figure figure figcaption div.mfp-bottom-bar div.mfp-coun
     justify-content: center;
     width: 100px;
     height: 30px;
-    bottom: 115px;
+    top: 115px;
     right: 20px;
     z-index: 99;
     font-size: 16px;
