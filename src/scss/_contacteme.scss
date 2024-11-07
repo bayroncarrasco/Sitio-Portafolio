@@ -6,7 +6,7 @@
             align-items: center;
             justify-content: center;
             width: 90px;
-            height: 90px;
+            height: 60px;
             bottom: 150px;
             right: 30px;
             z-index: 99;
@@ -15,7 +15,7 @@
             outline: none;
             background-color: $primary-color;
             cursor: pointer;
-            border-radius: 50px;
+            border-radius: 15px;
             button.contactemee{
                 border: none;
                 display: flex;
@@ -25,6 +25,7 @@
                     color: $bg-c-blanco;
                     font-size: 14px;
                     background: transparent;
+                    animation: parpadeo 3s infinite alternate;
                 }
             }
         }
@@ -43,17 +44,17 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 60px;
-                height: 60px;
-                bottom: 130px;
+                width: 100px;
+                height: 30px;
+                bottom: 115px;
                 right: 20px;
                 z-index: 99;
                 font-size: 16px;
-                border: 8px solid $bg-black;
+                border: 4px solid $bg-black;
                 outline: none;
                 background-color: $secondary-color;
                 cursor: pointer;
-                border-radius: 50px;
+                border-radius: 10px;
                 button.contactemee{
                     border: none;
                     display: flex;
@@ -61,8 +62,9 @@
                     span.texto-contacteme{
                         font-family: $font-family-nunito-sans;
                         color: $bg-c-blanco;
-                        font-size: 11px;
+                        font-size: 14px;
                         background: transparent;
+                        animation: parpadeo 3s infinite alternate;
                     }
                 }
             }
@@ -71,5 +73,18 @@
                 text-decoration: none;
             }
         }
+    }
+}
+
+/* Definir la animación de parpadeo */
+@keyframes parpadeo {
+    0% {
+        font-size: 12px;
+    }
+    50% {
+        font-size: 15px;  /* Aumenta el tamaño */
+    }
+    100% {
+        font-size: 12px;
     }
 }
