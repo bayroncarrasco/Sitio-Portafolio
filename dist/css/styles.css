@@ -11476,6 +11476,50 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
   color: #2c3e50;
 }
 
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp {
+  width: 98%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno {
+  width: 100%;
+  height: auto;
+  margin-left: 1rem;
+  border-left: 5px solid #2c3e50;
+  border-radius: 10px;
+  text-align: justify;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno h5 {
+  padding-left: 1rem;
+  margin-bottom: 0;
+  color: #04707f;
+  font-weight: 600;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno p {
+  padding-left: 1rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: normal;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno p:first-of-type {
+  font-weight: bold;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno p:not(:first-of-type) {
+  position: relative;
+  padding-left: 2rem;
+}
+section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 div#contenedorExternoExp div.contenedorInterno p:not(:first-of-type)::before {
+  content: "•";
+  position: absolute;
+  left: 1rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   div.carousel.slide ul.carousel-indicators {
     margin-top: 20px;

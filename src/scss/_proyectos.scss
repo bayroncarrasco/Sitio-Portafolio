@@ -1,0 +1,59 @@
+section#proyectosInternos {
+    div.row.no-gutters {
+      // Estilos comunes para las columnas
+      div.col-lg-12.col-sm-12.col-xs-12 {
+          // Contenedor Externo
+          div#contenedorExternoExp {
+              width: 98%;
+              height: auto;
+              display: flex;
+              align-items: center;
+              background-color: $bg-c-blanco;
+              margin-top: 50px;
+  
+              // Contenedor Interno
+              div.contenedorInterno {
+                width: 100%;
+                height: auto;
+                margin-left: 1rem;
+                border-left: 5px solid $primary-color;
+                border-radius: 10px;
+                text-align: justify;
+  
+              h5 {
+                  padding-left: 1rem;
+                  margin-bottom: 0;
+                  color: $secondary-color;
+                  font-weight: 600;
+              }
+  
+              p {
+                  padding-left: 1rem;
+                  color: $primary-color;
+                  margin-bottom: 10px;
+                  font-size: 1em;
+                  font-weight: normal;
+              }
+
+              p:first-of-type {
+                font-weight: bold;
+            }
+
+            p:not(:first-of-type) {
+                position: relative;
+                padding-left: 2rem;
+    
+                &::before {
+                  content: "•";
+                  position: absolute;
+                  left: 1rem;
+                  color: $primary-color;
+                  font-weight: bold;
+                }
+            }
+          }
+      }
+          }
+      }
+  }
+  
