@@ -10268,17 +10268,17 @@ header.masthead h1 {
   font-size: 2.25rem;
   font-family: "Play", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+header.masthead p {
+  font-size: 1.1rem;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: justify;
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
-  }
-  header.masthead p {
-    font-size: 1.1rem;
-    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    text-align: justify;
   }
   header.masthead h3 {
     font-size: 2rem;
@@ -12441,11 +12441,14 @@ div.loading.show {
     order: 1;
   }
   div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(2) div.logo {
-    background: url(../assets/img/logo/new-logo-blanco.png);
+    background: url(../assets/img/logo/new-logo-negro.png);
     width: 100%;
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+    display: block;
+    box-sizing: border-box;
     margin-bottom: 20px;
   }
   div.bg-c-verde-claro.pt-30.pb-30 .container .row .col-lg-4.col-sm-4.text-center:nth-child(3) {

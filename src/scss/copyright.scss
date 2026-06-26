@@ -344,11 +344,14 @@
                 .col-lg-4.col-sm-4.text-center:nth-child(2){
                     order: 1;
                     div.logo{
-                        background: url(../assets/img/logo/new-logo-blanco.png);
+                        background: url(../assets/img/logo/new-logo-negro.png);
                         width: 100%;
                         height: 100px;
                         background-repeat: no-repeat;
                         background-position: center;
+                        background-size: contain;
+                        display: block;
+                        box-sizing: border-box;
                         margin-bottom: 20px;
                     }
                 }
