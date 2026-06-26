@@ -11657,7 +11657,7 @@ section#proyectosInternos div.row.no-gutters div.col-lg-12.col-sm-12.col-xs-12 d
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: 180px auto;
+    background-size: 160px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(10) div.carousel-caption h3 {
     color: #04707f;
@@ -11933,7 +11933,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: 180px auto;
+    background-size: 160px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(11) div {
     background: url(../assets/img/img-11.png);
