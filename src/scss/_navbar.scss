@@ -8,13 +8,16 @@
         font-weight: $font-weight-bold;
         color: $black;
         div.logo{
-            background: url("../assets/img/logo/logo-blanco.png");
-            width: 230px;
+            background: url("../assets/img/logo/new-logo-negro.png");
+            width: 270px;
             height: 90px;
             background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
             display: block;
             box-sizing: border-box;
-            position: absolute;
+            position: relative;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
         }
     }
     button.navbar-toggler.navbar-toggler-right{
@@ -71,13 +74,16 @@
             box-shadow: $box-shadow;
             background-color: $white;
             div.logo{
-            background: url("../assets/img/logo/logo.png");
+            background: url("../assets/img/logo/new-logo-blanco.png");
             width: 230px;
             height: 90px;
             background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
             display: block;
             box-sizing: border-box;
             position: relative;
+            filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.1));
             }
             .navbar-brand {
                 color: $black;
@@ -106,15 +112,17 @@
             font-weight: $font-weight-bold;
             color: $black;
             div.logo{
-                background: url("../assets/img/logo/logo.png");
-                background-size: 160px;
-                width: 160px;
+                background: url("../assets/img/logo/new-logo-negro.png");
+                width: 230px;
                 height: 90px;
                 background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
                 display: block;
                 box-sizing: border-box;
                 position: absolute;
                 margin-top: -26px;
+                filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.1));
             }
         }
     }
