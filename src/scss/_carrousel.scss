@@ -8,17 +8,27 @@ $carousel-item-background-position: center;
 
 // Definimos tamaños de fondo específicos para cada imagen
 $background-sizes: (
-  1: contain,  // liferay.png
-  2: contain,  // modyo.png
-  3: contain,  // bootstrap.png
-  4: contain,  // html5.png
-  5: contain,  // css.png
-  6: contain,  // js.png
-  7: contain,  // sass.png
-  8: contain,  // airtable.png
-  9: contain,  // vue.png
-  10: contain, // git.png
-  11: contain  // pug.png
+  1: 250px auto,  // liferay.png
+  2: 250px auto,  // modyo.png
+  3: 250px auto,  // bootstrap.png
+  4: 140px auto,  // html5.png
+  5: 140px auto,  // css.png
+  6: 140px auto,  // js.png
+  7: 250px auto,  // sass.png
+  8: 250px auto,  // airtable.png
+  9: 200px auto,  // vue.png
+  10: 180px auto, // git.png
+  11: 300px auto, // git.png
+  12: 300px auto,  // pug.png
+  13: 300px auto,  // pug.png
+  14: 300px auto,  // pug.png
+  15: 300px auto,  // pug.png
+  16: 300px auto,  // pug.png
+  17: 300px auto,  // pug.png
+  18: 300px auto,  // pug.png
+  19: 250px auto,  // pug.png
+  20: 250px auto,  // pug.png
+  21: 250px auto  // pug.png
 );
 
 @media (min-width: 768px) {    
@@ -38,7 +48,7 @@ $background-sizes: (
     }
 
     div.carousel-inner {
-      @for $i from 1 to 15 {
+      @for $i from 1 to 21 {
         .carousel-item:nth-child(#{$i}) {
           div {
             background: url(../assets/img/img-#{$i}.png);
@@ -88,7 +98,7 @@ $background-sizes: (
     margin-bottom: 50px;
 
     div.carousel-inner {
-      @for $i from 1 to 15 {
+      @for $i from 1 to 21 {
         .carousel-item:nth-child(#{$i}) {
           div {
             background: url(../assets/img/img-#{$i}.png); // Generando la URL dinámicamente

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2026 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 .font-familiy-nunito {
@@ -2137,19 +2137,7 @@ pre code {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
 }
-.form-control::-webkit-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
 .form-control::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-.form-control:-ms-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-.form-control::-ms-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
@@ -2547,7 +2535,6 @@ textarea.form-control {
   vertical-align: middle;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -5060,15 +5047,6 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #040505;
 }
 
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 1rem 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -5110,13 +5088,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .progress-bar-animated {
-  -webkit-animation: progress-bar-stripes 1s linear infinite;
-          animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }
 
@@ -5463,8 +5439,7 @@ a.close.disabled {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   opacity: 0;
   border-radius: 0.25rem;
 }
@@ -5562,7 +5537,6 @@ a.close.disabled {
 .modal-dialog-centered::before {
   display: block;
   height: calc(100vh - 1rem);
-  height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
   content: "";
@@ -5673,7 +5647,6 @@ a.close.disabled {
   }
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
-    height: -webkit-min-content;
     height: -moz-min-content;
     height: min-content;
   }
@@ -5963,8 +5936,7 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6117,12 +6089,6 @@ a.close.disabled {
   text-align: center;
 }
 
-@-webkit-keyframes spinner-border {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes spinner-border {
   to {
     transform: rotate(360deg);
@@ -6136,24 +6102,13 @@ a.close.disabled {
   border: 0.25em solid currentColor;
   border-right-color: transparent;
   border-radius: 50%;
-  -webkit-animation: spinner-border 0.75s linear infinite;
-          animation: spinner-border 0.75s linear infinite;
+  animation: spinner-border 0.75s linear infinite;
 }
 
 .spinner-border-sm {
   width: 1rem;
   height: 1rem;
   border-width: 0.2em;
-}
-
-@-webkit-keyframes spinner-grow {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @keyframes spinner-grow {
@@ -6173,8 +6128,7 @@ a.close.disabled {
   background-color: currentColor;
   border-radius: 50%;
   opacity: 0;
-  -webkit-animation: spinner-grow 0.75s linear infinite;
-          animation: spinner-grow 0.75s linear infinite;
+  animation: spinner-grow 0.75s linear infinite;
 }
 
 .spinner-grow-sm {
@@ -7433,21 +7387,18 @@ button.bg-dark:focus {
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
-      -ms-user-select: all !important;
           user-select: all !important;
 }
 
 .user-select-auto {
   -webkit-user-select: auto !important;
      -moz-user-select: auto !important;
-      -ms-user-select: auto !important;
           user-select: auto !important;
 }
 
 .user-select-none {
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
-      -ms-user-select: none !important;
           user-select: none !important;
 }
 
@@ -7476,7 +7427,6 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -7496,9 +7446,8 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -10340,8 +10289,7 @@ header.masthead h1 {
 }
 
 .card-flip > div {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: transform 300ms;
   transition-timing-function: linear;
   width: 100%;
@@ -10545,14 +10493,28 @@ header.masthead h1 {
   }
 
   div#contenedor15 {
-    order: 16;
+    order: 17;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 8px;
   }
 
   div#contenedor16 {
-    order: 15;
+    order: 16;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+  }
+
+  div#contenedor17 {
+    order: 18;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+  }
+
+  div#contenedor18 {
+    order: 19;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 8px;
@@ -11534,7 +11496,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(1) div.carousel-caption h3 {
     color: #04707f;
@@ -11547,7 +11509,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div.carousel-caption h3 {
     color: #04707f;
@@ -11560,7 +11522,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div.carousel-caption h3 {
     color: #04707f;
@@ -11573,7 +11535,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div.carousel-caption h3 {
     color: #04707f;
@@ -11586,7 +11548,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div.carousel-caption h3 {
     color: #04707f;
@@ -11599,7 +11561,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div.carousel-caption h3 {
     color: #04707f;
@@ -11612,7 +11574,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div.carousel-caption h3 {
     color: #04707f;
@@ -11625,7 +11587,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(8) div.carousel-caption h3 {
     color: #04707f;
@@ -11638,7 +11600,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 200px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(9) div.carousel-caption h3 {
     color: #04707f;
@@ -11651,7 +11613,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 180px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(10) div.carousel-caption h3 {
     color: #04707f;
@@ -11664,7 +11626,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
-    background-size: contain;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(11) div.carousel-caption h3 {
     color: #04707f;
@@ -11677,6 +11639,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(12) div.carousel-caption h3 {
     color: #04707f;
@@ -11689,6 +11652,7 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(13) div.carousel-caption h3 {
     color: #04707f;
@@ -11701,8 +11665,87 @@ section#experiencias div.row.no-gutters div.col-lg-6.col-sm-6.col-xs-12:nth-chil
     background-position: center;
     margin-bottom: 50px;
     display: block;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(14) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(15) div {
+    background: url(../assets/img/img-15.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(15) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(16) div {
+    background: url(../assets/img/img-16.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(16) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(17) div {
+    background: url(../assets/img/img-17.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(17) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(18) div {
+    background: url(../assets/img/img-18.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(18) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(19) div {
+    background: url(../assets/img/img-19.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 250px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(19) div.carousel-caption h3 {
+    color: #04707f;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(20) div {
+    background: url(../assets/img/img-20.png);
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: 250px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(20) div.carousel-caption h3 {
     color: #04707f;
   }
   div.carousel.slide a.carousel-control-prev:hover,
@@ -11738,7 +11781,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(2) div {
     background: url(../assets/img/img-2.png);
@@ -11750,7 +11793,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(3) div {
     background: url(../assets/img/img-3.png);
@@ -11762,7 +11805,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(4) div {
     background: url(../assets/img/img-4.png);
@@ -11774,7 +11817,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(5) div {
     background: url(../assets/img/img-5.png);
@@ -11786,7 +11829,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(6) div {
     background: url(../assets/img/img-6.png);
@@ -11798,7 +11841,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 140px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(7) div {
     background: url(../assets/img/img-7.png);
@@ -11810,7 +11853,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(8) div {
     background: url(../assets/img/img-8.png);
@@ -11822,7 +11865,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 250px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(9) div {
     background: url(../assets/img/img-9.png);
@@ -11834,7 +11877,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 200px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(10) div {
     background: url(../assets/img/img-10.png);
@@ -11846,7 +11889,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 180px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(11) div {
     background: url(../assets/img/img-11.png);
@@ -11858,7 +11901,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
-    background-size: contain;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(12) div {
     background: url(../assets/img/img-12.png);
@@ -11870,6 +11913,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(13) div {
     background: url(../assets/img/img-13.png);
@@ -11881,6 +11925,7 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
+    background-size: 300px auto;
   }
   div.carousel.slide div.carousel-inner .carousel-item:nth-child(14) div {
     background: url(../assets/img/img-14.png);
@@ -11892,6 +11937,79 @@ div.carousel.slide a.carousel-control-next:hover {
     display: block;
     background-size: contain;
     padding-top: 56.25%;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(15) div {
+    background: url(../assets/img/img-15.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(16) div {
+    background: url(../assets/img/img-16.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(17) div {
+    background: url(../assets/img/img-17.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(18) div {
+    background: url(../assets/img/img-18.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 300px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(19) div {
+    background: url(../assets/img/img-19.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 250px auto;
+  }
+  div.carousel.slide div.carousel-inner .carousel-item:nth-child(20) div {
+    background: url(../assets/img/img-20.png);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    display: block;
+    background-size: contain;
+    padding-top: 56.25%;
+    background-size: 250px auto;
   }
 }
 .text-white-75 {
@@ -11974,13 +12092,7 @@ div.loading .spin {
   border-radius: 50%;
   width: 4em;
   height: 4em;
-  -webkit-animation: spin 1.2s linear infinite;
-          animation: spin 1.2s linear infinite;
-}
-@-webkit-keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+  animation: spin 1.2s linear infinite;
 }
 @keyframes spin {
   to {
@@ -12517,8 +12629,7 @@ div.mfp-content div.mfp-figure figure figcaption div.mfp-bottom-bar div.mfp-coun
   color: white;
   font-size: 14px;
   background: transparent;
-  -webkit-animation: parpadeo 3s infinite alternate;
-          animation: parpadeo 3s infinite alternate;
+  animation: parpadeo 3s infinite alternate;
 }
 .row .col-lg-3.col-xs-12 a#contacteme:hover {
   background-color: #04707f;
@@ -12553,8 +12664,7 @@ div.mfp-content div.mfp-figure figure figcaption div.mfp-bottom-bar div.mfp-coun
     color: white;
     font-size: 14px;
     background: transparent;
-    -webkit-animation: parpadeo 3s infinite alternate;
-            animation: parpadeo 3s infinite alternate;
+    animation: parpadeo 3s infinite alternate;
   }
   .row .col-lg-3.col-xs-12 a#contacteme:hover {
     background-color: #04707f;
@@ -12562,18 +12672,6 @@ div.mfp-content div.mfp-figure figure figcaption div.mfp-bottom-bar div.mfp-coun
   }
 }
 /* Definir la animación de parpadeo */
-@-webkit-keyframes parpadeo {
-  0% {
-    font-size: 12px;
-  }
-  50% {
-    font-size: 15px;
-    /* Aumenta el tamaño */
-  }
-  100% {
-    font-size: 12px;
-  }
-}
 @keyframes parpadeo {
   0% {
     font-size: 12px;
