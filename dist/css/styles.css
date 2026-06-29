@@ -12748,6 +12748,8 @@ body.dark-mode #demo .carousel-item div {
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+  width: 500px;
+  justify-self: center;
 }
 body.dark-mode #demo .carousel-indicators li {
   background-color: #fff !important;
