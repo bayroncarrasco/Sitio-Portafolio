@@ -6,31 +6,120 @@ body.dark-mode {
     background: #121212;
     color: #f5f5f5;
 
-    // ======================================
-    // NAVBAR
-    // ======================================
-
-    #mainNav {
-        background: $bg-black !important;
-
-        div.logo {
+    @media (max-width: 768px) {
+        #mainNav .navbar-brand div.logo {
             background: url("../assets/img/logo/new-logo-negro.png");
+            width: 180px;
+            height: 55px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-        }
-
-        &.navbar-scrolled {
-            .navbar-nav .nav-link {
-                color: #fff !important;
-
-                &:hover {
-                    color: #00c896 !important;
-                }
-            }
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            margin-top: -26px;
+            filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.15));
         }
     }
 
+    @media (min-width: 768px) {
+        #mainNav .navbar-brand div.logo {
+            width: 230px;
+            height: 90px;
+            display: block;
+            box-sizing: border-box;
+            position: relative;
+            filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 0px 8px);
+            background: url("../assets/img/logo/new-logo-negro.png") center center / contain no-repeat;
+            background-position: center center;
+        }
+    }
+
+    // ======================================
+    // NAVBAR DARK MODE
+    // ======================================
+
+        #mainNav {
+            background-color: #121212 !important;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, .4);
+
+            // Links normales
+            .navbar-nav {
+
+                .nav-link {
+                    color: #f5f5f5 !important;
+                    font-weight: 500;
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: $bg-celeste !important;
+                    }
+
+                    &:focus {
+                        color: $bg-celeste !important;
+                    }
+
+                    &.active {
+                        color: $bg-celeste !important;
+                    }
+                }
+            }
+
+            // Menú desplegado en mobile
+            #navbarResponsive {
+                background-color: transparent;
+
+                @media (max-width: 991px) {
+                    background-color: #1b1b1b;
+                    border-radius: 12px;
+                    margin-top: 10px;
+                    padding: 15px;
+                    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+                }
+            }
+
+            // Botón hamburguesa
+            .navbar-toggler {
+                border: 1px solid rgb(255, 255, 255);
+
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+            }
+
+            // Estado scrolleado
+            &.navbar-scrolled {
+                background-color: #121212 !important;
+
+                .nav-link {
+                    color: #fff !important;
+
+                    &:hover {
+                        color: $bg-celeste !important;
+                    }
+                }
+            }
+        }
+
+        body.dark-mode #mainNav .nav-link.active {
+            color: $bg-celeste !important;
+            position: relative;
+        }
+        
+        body.dark-mode #mainNav .nav-link.active::after {
+            content: "";
+            position: absolute;
+            left: 15%;
+            bottom: -5px;
+            width: 70%;
+            height: 2px;
+            background-color: $bg-celeste;
+        }
     // ======================================
     // HERO / MASTHEAD
     // ======================================
@@ -165,6 +254,25 @@ body.dark-mode {
         .carousel-indicators li {
             background-color: #fff !important;
         }
+
+        // Mobile
+        @media (max-width: 768px) {
+            .carousel-item div {
+                padding: 0;
+                width: auto;
+                height: 200px;
+                justify-self: initial;
+            }
+        }
+    }
+
+    // ======================================
+    // CONTACTARME
+    // ======================================
+    #contacteme {
+        background-color: #000 !important;
+        border-color: #fff !important;
+        border: 1px solid #fff !important;
     }
 
     // ======================================
