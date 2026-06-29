@@ -1,0 +1,234 @@
+// ======================================
+// DARK MODE
+// ======================================
+
+body.dark-mode {
+    background: #121212;
+    color: #f5f5f5;
+
+    // ======================================
+    // NAVBAR
+    // ======================================
+
+    #mainNav {
+        background: $bg-black !important;
+
+        div.logo {
+            background: url("../assets/img/logo/new-logo-negro.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        &.navbar-scrolled {
+            .navbar-nav .nav-link {
+                color: #fff !important;
+
+                &:hover {
+                    color: #00c896 !important;
+                }
+            }
+        }
+    }
+
+    // ======================================
+    // HERO / MASTHEAD
+    // ======================================
+
+    header.masthead {
+        background: linear-gradient(
+            135deg,
+            #0a0f1f 0%,
+            $primary-color 50%,
+            #0a0f1f 100%
+        ) !important;
+    }
+
+    .bg-btn-primary {
+        background-color: #fff !important;
+        color: #0a0f1f !important;
+        border: 2px solid #fff;
+
+        &:hover {
+            background-color: transparent !important;
+            color: #fff !important;
+            border: 2px solid #fff;
+        }
+    }
+
+    .divider-verde-claro {
+        border-color: $bg-celeste !important;
+        background-color: $bg-celeste !important;
+    }
+
+    // ======================================
+    // TEXTOS GENERALES
+    // ======================================
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    a {
+        color: #f5f5f5;
+    }
+
+    .bg-c-blanco,
+    .bg-c-negro {
+        color: #fff !important;
+    }
+
+    // ======================================
+    // SECCIONES
+    // ======================================
+
+    section,
+    #about {
+        background: #121212 !important;
+    }
+
+    // ======================================
+    // CARDS
+    // ======================================
+
+    .card {
+        background: #121212;
+        border: 1px solid #333;
+    }
+
+    .card-front {
+        background: $primary-color !important;
+        color: #fff !important;
+    }
+
+    .card-back {
+        background: linear-gradient(
+                to bottom,
+                rgba(128, 128, 128, 0.5) 0%,
+                rgba(128, 128, 128, 0.5) 100%
+            ),
+            #04707f !important;
+
+        color: #fff !important;
+    }
+
+    // ======================================
+    // BOTONES
+    // ======================================
+
+    .btn-light {
+        background: #333;
+        color: #fff;
+        border-color: #555;
+    }
+
+    // ======================================
+    // PROYECTOS INTERNOS
+    // ======================================
+
+    #contenedorExternoExp {
+        background-color: transparent !important;
+    }
+
+    #proyectosInternos {
+
+        .contenedorInterno {
+            background-color: $primary-color;
+            border-left: 5px solid #fff !important;
+            border-radius: 8px;
+            padding: 20px;
+
+            h5,
+            p {
+                color: #fff !important;
+            }
+        }
+    }
+
+    // ======================================
+    // TECNOLOGÍAS / CARRUSEL
+    // ======================================
+
+    #demo {
+
+        .carousel-item div {
+            background-color: #f5f5f5d6;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.08);
+        }
+
+        .carousel-indicators li {
+            background-color: #fff !important;
+        }
+    }
+
+    // ======================================
+    // FOOTER
+    // ======================================
+
+    #footer {
+        background-color: #121212 !important;
+        border-top: 1px solid #333;
+    }
+}
+
+// ======================================
+// SWITCH DARK MODE
+// ======================================
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: $primary-color;
+    transition: .4s;
+
+    &:before {
+        position: absolute;
+        content: "☀️";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: #fff;
+        transition: .4s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 14px;
+    }
+
+    &.round {
+        border-radius: 34px;
+
+        &:before {
+            border-radius: 50%;
+        }
+    }
+}
+
+input:checked + .slider {
+    background-color: $bg-celeste;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+    content: "🌙";
+}
